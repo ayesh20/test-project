@@ -1,4 +1,4 @@
-1. Project Setup and Initial Configuration
+1. Project Setup and Initial 
 
 Development Environment: Ensure you have Java Development Kit (JDK), a Java IDE (like Eclipse, IntelliJ IDEA, or NetBeans), and a servlet container (like Apache Tomcat) set up.
 Database: Install and configure a relational database management system (RDBMS) such as MySQL or PostgreSQL. Create a database for your project.
