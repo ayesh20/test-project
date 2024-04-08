@@ -3,7 +3,7 @@
 Development Environment: Ensure you have Java Development Kit (JDK), a Java IDE (like Eclipse, IntelliJ IDEA, or NetBeans), and a servlet container (like Apache Tomcat) set up.
 Database: Install and configure a relational database management system (RDBMS) such as MySQL or PostgreSQL. Create a database for your project.
 
-2. Database Design(Ayesh)
+2. Database Design
 
 Users Table: For user authentication, including fields like userId, username, password, email, and role (to differentiate between regular users and admins).
 Products Table: Include fields such as productId, name, description, price, and category.
