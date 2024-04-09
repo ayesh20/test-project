@@ -66,7 +66,7 @@ body
          <div>
          <button type="submit" name="submit" id="butt">Log in</button>
          <div class="register">
-             <p>Don't have an Account <a href="register.jsp">Rerister</a></p>
+             <p>Don't have an Account <a href="register.jsp">Register</a></p>
              
              </div>
          </div>
