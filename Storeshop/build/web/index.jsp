@@ -88,7 +88,29 @@
       
     </div>
           
-    <div class="categories-title">select item</div>
+    <!--=============== 3D carosal===============-->
+     
+    <div class="container10">
+    <div class="slider10">
+           
+               
+               
+           <span10 style="--i:1;"><img src="images/1111.jpg"></span10>
+           <span10 style="--i:2;"><img src="images/1112.jpg"></span10>
+           <span10 style="--i:3;"><img src="images/1113.jpg"></span10>
+           <span10 style="--i:4;"><img src="images/1117.jpg"></span10>
+           <span10 style="--i:5;"><img src="images/1118.jpg"></span10>
+           <span10 style="--i:6;"><img src="images/1119.jpg"></span10>  
+           <span10 style="--i:7;"><img src="images/1118.jpg"></span10>
+           <span10 style="--i:8;"><img src="images/1119.jpg"></span10> 
+              
+            
+        </div>
+        </div>
+    <!--=============== 3D carosal over===============-->
+    
+    
+           <div class="categories-title">select item</div>
 
     <div class="categories-section">
         <div class="category-image-container">
