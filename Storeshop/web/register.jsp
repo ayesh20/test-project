@@ -107,12 +107,12 @@ alert("country missing");
          <div>
          <button type="submit" name="submit" id="butt" onClick="x()" class="form-btn" >Register</button>
          <div class="register">
-             <p>Already have an account <a href="login_form.php">Log in</a></p>
+             <p>Already have an account <a href="login.jsp">Log in</a></p>
             </div>
            
          </div>
      </div>
-      <p><font color="white">  <i class="fa fa-home" aria-hidden="true"  ></i></font></p>
+      <p><a href="index.jsp"><font color="white">  <i class="fa fa-home" aria-hidden="true"  ></i></font></a></p>
    </form>
 </div>
 
