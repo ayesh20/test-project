@@ -48,8 +48,8 @@
                   
 
                   <!--=============== DROPDOWN 2 ===============-->
-                 <li><a href="gallery.jsp" class="nav__link">Shirts</a></li>
-                 <li><a href="t-shirt.jsp" class="nav__link">T-Shirts</a></li>
+                 <li><a href="mshirt.jsp" class="nav__link">Shirts</a></li>
+                 <li><a href="t-shirts.jsp" class="nav__link">T-Shirts</a></li>
                  <li><a href="mtrouser.jsp" class="nav__link">Pants</a></li>
                  <li><a href="shorts.jsp" class="nav__link">Shorts</a></li>
               <li><a href="gallery.jsp" class="nav__link">Gallery</a></li>
