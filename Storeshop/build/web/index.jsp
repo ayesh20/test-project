@@ -254,35 +254,103 @@
       <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
       <script src="js/main1.js"></script>
-      <script>
-  // Function to update cart count
-  function updateCartCount() {
-    $.ajax({
-      url: 'path_to_your_cart_count_endpoint', // Backend URL that returns cart count
-      type: 'GET',
-      success: function(count) {
-        $('#cart-count').text(count); // Update the cart count display
-      },
-      error: function() {
-        console.error('Failed to fetch cart count');
-      }
+<script>
+         function showSelectButton(cardElement) {
+            cardElement.getElementsByClassName('select-button')[0].style.display = 'block';
+        }
+
+        function hideSelectButton(cardElement) {
+            cardElement.getElementsByClassName('select-button')[0].style.display = 'none';
+        }
+
+        function showProductDetails(cardElement) {
+            var title = cardElement.getAttribute('data-title');
+            var price = cardElement.getAttribute('data-price');
+            var image = cardElement.getAttribute('data-image');
+
+            var modalTitle = document.querySelector('.modal-details .modal-title');
+            var modalPrice = document.querySelector('.modal-details .modal-price');
+            var modalImage = document.querySelector('.modal-images .main-image');
+
+
+            modalTitle.textContent = title;
+            modalPrice.textContent = price;
+            modalImage.src = image;
+
+            document.getElementById('productDetailsModal').style.display = 'block';
+        }
+
+        function hideProductDetails() {
+            document.getElementById('productDetailsModal').style.display = 'none';
+        }
+
+        // Global variables to keep track of the selected product details
+        var selectedColor = '';
+        var selectedSize = '';
+        var selectedProduct;
+
+        function selectColor(color) {
+            selectedColor = color;
+            var buttons = document.querySelectorAll('.color-options button');
+    buttons.forEach(function(btn) {
+        btn.classList.remove('selected');
     });
-  }
+    document.querySelector('.color-' + color).classList.add('selected');
+        }
 
-  // Call updateCartCount on page load
-  $(document).ready(function() {
-    updateCartCount();
-  });
+        function selectSize(size) {
+            selectedSize = size;
+            var buttons = document.querySelectorAll('.size-options button');
+    buttons.forEach(function(btn) {
+        btn.classList.remove('selected');
+    });
+    Array.from(buttons).find(btn => btn.textContent === size).classList.add('selected');
+        }
 
-  // Assuming you have some button or link to add items to the cart
-  $('.add-to-cart-button').on('click', function() {
-    // ... your code to add an item to the cart ...
+        function addToCart() {
+            var quantity = document.getElementById('quantity').value;
+            var productDetails = {
+                id: selectedProduct.getAttribute('data-id'),
+                title: selectedProduct.getAttribute('data-title'),
+                price: selectedProduct.getAttribute('data-price'),
+                image: selectedProduct.querySelector('img').src,
+                color: selectedColor,
+                size: selectedSize,
+                quantity: quantity
+            };
 
-    // After adding to cart, update the cart count
-    updateCartCount();
-  });
-</script>
+            var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            cart.push(productDetails);
+            localStorage.setItem('cart', JSON.stringify(cart));
 
+            updateCartCount();
+            hideProductDetails();
+            
+        }
+
+        function showProductDetails(cardElement) {
+            selectedProduct = cardElement; // Store reference to the selected product card
+            document.getElementById('modalTitle').textContent = cardElement.getAttribute('data-title');
+            document.getElementById('modalPrice').textContent = cardElement.getAttribute('data-price');
+             document.getElementById('modalImage').textContent = `$${cardElement.getAttribute('data-image')}`;
+            // Reset color and size selections
+            selectedColor = '';
+            selectedSize = '';
+            document.getElementById('productDetailsModal').style.display = 'block';
+        }
+
+        function updateCartCount() {
+            var cartCountElement = document.getElementById('cart-count');
+            var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+            var totalCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
+            cartCountElement.innerText = totalCount;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            updateCartCount(); // Update the cart count when the page loads
+        });
+    </script>
+       
 </body>
 <script src = "js/jquery.js"></script>
 <script src = "js/bootstrap.js"></script>	
