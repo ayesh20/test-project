@@ -60,7 +60,7 @@
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.html" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
@@ -74,7 +74,7 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="color Shirt" data-price="$178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="color Shirt" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1111.jpg">
             </div>
@@ -84,7 +84,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="$228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1112.jpg">
             </div>
@@ -94,7 +94,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="$378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1113.jpg">
             </div>
@@ -104,7 +104,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="$428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1114.jpg">
             </div>
@@ -114,7 +114,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="$578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1115.jpg">
             </div>
@@ -124,7 +124,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="$628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1116.jpg">
             </div>
@@ -134,7 +134,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="$778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1117.jpg">
             </div>
@@ -144,7 +144,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="$828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1118.jpg">
             </div>
@@ -166,7 +166,7 @@
             <div class="modal-body">
                 <div class="modal-images">
                     <img id="modalImage"  alt="Shirt Image" class="main-image">
-                    <img  src="1114.jpg"   alt="Shirt Image" style="width: 50px; height: auto; display: inline-block;"  >
+                    
                 </div>
             <div class="modal-details">
                 <h3 id="modalTitle"></h3>
@@ -256,102 +256,88 @@
       <script src="js/main1.js"></script>
       
     <script>
-         function showSelectButton(cardElement) {
-            cardElement.getElementsByClassName('select-button')[0].style.display = 'block';
-        }
+         
+    function showSelectButton(cardElement) {
+        cardElement.getElementsByClassName('select-button')[0].style.display = 'block';
+    }
 
-        function hideSelectButton(cardElement) {
-            cardElement.getElementsByClassName('select-button')[0].style.display = 'none';
-        }
+    function hideSelectButton(cardElement) {
+        cardElement.getElementsByClassName('select-button')[0].style.display = 'none';
+    }
 
-        function showProductDetails(cardElement) {
-            var title = cardElement.getAttribute('data-title');
-            var price = cardElement.getAttribute('data-price');
-            var image = cardElement.getAttribute('data-image');
+    function showProductDetails(cardElement) {
+        var title = cardElement.getAttribute('data-title');
+        var price = cardElement.getAttribute('data-price');
+        var imageSrc = cardElement.querySelector('img').src;  // Get the image source from the card
 
-            var modalTitle = document.querySelector('.modal-details .modal-title');
-            var modalPrice = document.querySelector('.modal-details .modal-price');
-            var modalImage = document.querySelector('.modal-images .main-image');
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalPrice').textContent = price;
+        document.getElementById('modalImage').src = imageSrc; // Set the image source in the modal
 
+        document.getElementById('productDetailsModal').style.display = 'block';
+        selectedProduct = cardElement; // Store reference to the selected product card
+        // Reset color and size selections
+        selectedColor = '';
+        selectedSize = '';
+    }
 
-            modalTitle.textContent = title;
-            modalPrice.textContent = price;
-            modalImage.src = image;
+    function hideProductDetails() {
+        document.getElementById('productDetailsModal').style.display = 'none';
+    }
 
-            document.getElementById('productDetailsModal').style.display = 'block';
-        }
-
-        function hideProductDetails() {
-            document.getElementById('productDetailsModal').style.display = 'none';
-        }
-
-        // Global variables to keep track of the selected product details
-        var selectedColor = '';
-        var selectedSize = '';
-        var selectedProduct;
-
-        function selectColor(color) {
-            selectedColor = color;
-            var buttons = document.querySelectorAll('.color-options button');
-    buttons.forEach(function(btn) {
-        btn.classList.remove('selected');
-    });
-    document.querySelector('.color-' + color).classList.add('selected');
-        }
-
-        function selectSize(size) {
-            selectedSize = size;
-            var buttons = document.querySelectorAll('.size-options button');
-    buttons.forEach(function(btn) {
-        btn.classList.remove('selected');
-    });
-    Array.from(buttons).find(btn => btn.textContent === size).classList.add('selected');
-        }
-
-        function addToCart() {
-            var quantity = document.getElementById('quantity').value;
-            var productDetails = {
-                id: selectedProduct.getAttribute('data-id'),
-                title: selectedProduct.getAttribute('data-title'),
-                price: selectedProduct.getAttribute('data-price'),
-                image: selectedProduct.querySelector('img').src,
-                color: selectedColor,
-                size: selectedSize,
-                quantity: quantity
-            };
-
-            var cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            cart.push(productDetails);
-            localStorage.setItem('cart', JSON.stringify(cart));
-
-            updateCartCount();
-            hideProductDetails();
-            
-        }
-
-        function showProductDetails(cardElement) {
-            selectedProduct = cardElement; // Store reference to the selected product card
-            document.getElementById('modalTitle').textContent = cardElement.getAttribute('data-title');
-            document.getElementById('modalPrice').textContent = cardElement.getAttribute('data-price');
-             document.getElementById('modalImage').textContent = `$${cardElement.getAttribute('data-image')}`;
-            // Reset color and size selections
-            selectedColor = '';
-            selectedSize = '';
-            document.getElementById('productDetailsModal').style.display = 'block';
-        }
-
-        function updateCartCount() {
-            var cartCountElement = document.getElementById('cart-count');
-            var cart = JSON.parse(localStorage.getItem('cart') || '[]');
-            var totalCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
-            cartCountElement.innerText = totalCount;
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-            updateCartCount(); // Update the cart count when the page loads
+    function selectColor(color) {
+        selectedColor = color;
+        var buttons = document.querySelectorAll('.color-options button');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('selected');
         });
+        document.querySelector('.color-' + color).classList.add('selected');
+    }
+
+    function selectSize(size) {
+        selectedSize = size;
+        var buttons = document.querySelectorAll('.size-options button');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('selected');
+        });
+        Array.from(buttons).find(btn => btn.textContent === size).classList.add('selected');
+    }
+
+function addToCart() {
+    var quantity = document.getElementById('quantity').value;
+    var productDetails = {
+        id: selectedProduct.getAttribute('data-id'),
+        title: selectedProduct.getAttribute('data-title'),
+        price: selectedProduct.getAttribute('data-price'),
+        image: selectedProduct.querySelector('img').src,
+        color: selectedColor, // Make sure this is set by selectColor function
+        size: selectedSize,   // Make sure this is set by selectSize function
+        quantity: quantity
+    };
+
+    // Add the item to the cart in localStorage
+    var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+    cart.push(productDetails);
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    updateCartCount(); // Reflect the cart count in UI
+    hideProductDetails(); // Hide the product details modal
+}
+
+    function updateCartCount() {
+        var cartCountElement = document.getElementById('cart-count');
+        var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+        var totalCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
+        cartCountElement.innerText = totalCount;
+        
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        updateCartCount(); // Update the cart count when the page loads
+    });
+
+
     </script>
-       
 
       
  

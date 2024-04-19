@@ -394,6 +394,88 @@
       <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
       <script src="js/main1.js"></script>
+      
+          <script>
+         
+    function showSelectButton(cardElement) {
+        cardElement.getElementsByClassName('select-button')[0].style.display = 'block';
+    }
+
+    function hideSelectButton(cardElement) {
+        cardElement.getElementsByClassName('select-button')[0].style.display = 'none';
+    }
+
+    function showProductDetails(cardElement) {
+        var title = cardElement.getAttribute('data-title');
+        var price = cardElement.getAttribute('data-price');
+        var imageSrc = cardElement.querySelector('img').src;  // Get the image source from the card
+
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalPrice').textContent = price;
+        document.getElementById('modalImage').src = imageSrc; // Set the image source in the modal
+
+        document.getElementById('productDetailsModal').style.display = 'block';
+        selectedProduct = cardElement; // Store reference to the selected product card
+        // Reset color and size selections
+        selectedColor = '';
+        selectedSize = '';
+    }
+
+    function hideProductDetails() {
+        document.getElementById('productDetailsModal').style.display = 'none';
+    }
+
+    function selectColor(color) {
+        selectedColor = color;
+        var buttons = document.querySelectorAll('.color-options button');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('selected');
+        });
+        document.querySelector('.color-' + color).classList.add('selected');
+    }
+
+    function selectSize(size) {
+        selectedSize = size;
+        var buttons = document.querySelectorAll('.size-options button');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('selected');
+        });
+        Array.from(buttons).find(btn => btn.textContent === size).classList.add('selected');
+    }
+
+    function addToCart() {
+        var quantity = document.getElementById('quantity').value;
+        var productDetails = {
+            id: selectedProduct.getAttribute('data-id'),
+            title: selectedProduct.getAttribute('data-title'),
+            price: selectedProduct.getAttribute('data-price'),
+            image: selectedProduct.querySelector('img').src,
+            color: selectedColor,
+            size: selectedSize,
+            quantity: quantity
+        };
+
+        var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+        cart.push(productDetails);
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        updateCartCount();
+        hideProductDetails();
+    }
+
+    function updateCartCount() {
+        var cartCountElement = document.getElementById('cart-count');
+        var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+        var totalCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
+        cartCountElement.innerText = totalCount;
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        updateCartCount(); // Update the cart count when the page loads
+    });
+
+
+    </script>
 </body>
 <script src = "js/jquery.js"></script>
 <script src = "js/bootstrap.js"></script>	

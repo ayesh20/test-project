@@ -60,7 +60,7 @@
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.html" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
@@ -74,7 +74,7 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="color Shirt" data-price="$178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="color Shirt" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1111.jpg">
             </div>
@@ -84,7 +84,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="$228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1112.jpg">
             </div>
@@ -94,7 +94,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="$378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1113.jpg">
             </div>
@@ -104,7 +104,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="$428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1114.jpg">
             </div>
@@ -114,7 +114,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="$578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1115.jpg">
             </div>
@@ -124,7 +124,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="$628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1116.jpg">
             </div>
@@ -134,7 +134,7 @@
                 <p> $328.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="$778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1117.jpg">
             </div>
@@ -144,7 +144,7 @@
                 <p> $278.50</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="$828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/1118.jpg">
             </div>
@@ -303,31 +303,33 @@
         Array.from(buttons).find(btn => btn.textContent === size).classList.add('selected');
     }
 
-    function addToCart() {
-        var quantity = document.getElementById('quantity').value;
-        var productDetails = {
-            id: selectedProduct.getAttribute('data-id'),
-            title: selectedProduct.getAttribute('data-title'),
-            price: selectedProduct.getAttribute('data-price'),
-            image: selectedProduct.querySelector('img').src,
-            color: selectedColor,
-            size: selectedSize,
-            quantity: quantity
-        };
+function addToCart() {
+    var quantity = document.getElementById('quantity').value;
+    var productDetails = {
+        id: selectedProduct.getAttribute('data-id'),
+        title: selectedProduct.getAttribute('data-title'),
+        price: selectedProduct.getAttribute('data-price'),
+        image: selectedProduct.querySelector('img').src,
+        color: selectedColor, // Make sure this is set by selectColor function
+        size: selectedSize,   // Make sure this is set by selectSize function
+        quantity: quantity
+    };
 
-        var cart = JSON.parse(localStorage.getItem('cart') || '[]');
-        cart.push(productDetails);
-        localStorage.setItem('cart', JSON.stringify(cart));
+    // Add the item to the cart in localStorage
+    var cart = JSON.parse(localStorage.getItem('cart') || '[]');
+    cart.push(productDetails);
+    localStorage.setItem('cart', JSON.stringify(cart));
 
-        updateCartCount();
-        hideProductDetails();
-    }
+    updateCartCount(); // Reflect the cart count in UI
+    hideProductDetails(); // Hide the product details modal
+}
 
     function updateCartCount() {
         var cartCountElement = document.getElementById('cart-count');
         var cart = JSON.parse(localStorage.getItem('cart') || '[]');
         var totalCount = cart.reduce((total, item) => total + parseInt(item.quantity), 0);
         cartCountElement.innerText = totalCount;
+        
     }
 
     document.addEventListener('DOMContentLoaded', function() {

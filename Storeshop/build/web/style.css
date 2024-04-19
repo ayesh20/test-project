@@ -1208,14 +1208,10 @@ body {
     background-color: #e0e0e0; /* Change the background on hover/active for visual feedback */
 }
 
-/* You should also add a class that highlights the selected size/color */
 .size-options button.selected,
 .color-options button.selected {
     border-color: #000; /* Highlights the selected size/color */
 }
-
-/* Additional styles for responsiveness and better layout may be needed */
-/* ... other styles ... */
 
 .select-button {
     display: none;
@@ -1307,20 +1303,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-/*==========cart page ecition===*/
+/*======================================cart page ecition==========*/
 body {
     font-family: 'Arial', sans-serif;
     background: #fff;
     margin: 0;
     padding: 0;
-}
-
-.header {
-    /* Style as per your header */
-}
-
-.nav {
-    /* Style as per your navigation */
 }
 
 .cart-container {
@@ -1404,3 +1392,4 @@ textarea {
     background-color: #ff6666; /* Lighter red on hover */
     
 }
+/*======================================paymentgateway edition==========*/
