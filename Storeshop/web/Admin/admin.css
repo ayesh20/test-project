@@ -1,0 +1,124 @@
+/*===add item===*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1e90ff;
+    color: white;
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+.menu-item {
+    padding: 25px 50px;
+    cursor: pointer;
+}
+
+
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 200px;
+    border: none;
+}
+
+.admin {
+    cursor: pointer;
+}
+
+.add-item-panel {
+    background-color: white;
+    padding: 30px;
+    width: 430px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-left: 190px;
+}
+
+.add-item-panel h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+}
+
+.file-upload input[type='file'] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file-label {
+    width: 400px;
+    display: block;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.form-group button {
+    width: 420px;
+    padding: 10px;
+    border: none;
+    background-color: #ffa500;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/*===category===*/
+.items-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.items-table th, .items-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+.items-table th {
+    background-color: #000;
+    color: #fff;
+}
+
