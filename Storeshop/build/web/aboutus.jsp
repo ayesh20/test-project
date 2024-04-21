@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>About us | FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -71,9 +71,33 @@
          </nav>
       </header>
       
-       
+      <div class="About"><br><br><br><br><br><br>
+          <h2>About US</h2><br>
+          <h4><a href="index.jsp">Home</a>/About us</h4>
+          <br><br><br><br><br><br><br><br><br>
+      </div><br><br>
       
-       
+          <div class="aboutc">
+         <table>
+         <tbody>
+            <tr>
+              <td><div class="topicline">FUNKYBOYZ</div><br><div class="co">The epitome and benchmark in menswear design
+                 will have you looking sharp and feeling confident.Carlo is a high-end menswear brand known for its 
+                 bespoke tailoring and quality craftsmanship. With classic styles and perfect fit, the brand caters to 
+                 men who desire to be on-trend and seeks affordable luxury.The brand covers a large selection of men’s 
+                 clothing in linen shirts, formal wear, evening wear,casual wear, shorts & pants. We strive to create 
+                 cutting-edge designs in premium fabrics.</div><br><br>
+              </td>
+              <td><img src="images/ab1.jpg"></td>
+            </tr>
+            <tr>
+                <td><img src="images/ab2.jpg" class="img2"></td>
+            </tr>
+             </tbody>
+          </table>
+        </div>
+      <br><br><br><br><br><br><br><br><br><br><br>
+    
 <%--=====Footer======--%>
      <br><br><br>
       <footer>
@@ -94,7 +118,7 @@
                        </div>
                    </div>
  
- 
+                 <br>
                    <div class="col6" id="services">
                       <h3>Favourite</h3>
                       <div class="links">
