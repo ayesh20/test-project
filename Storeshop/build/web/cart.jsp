@@ -98,6 +98,10 @@
 
     <!-- ... (existing footer content) ... -->
 
+    <!--=============== MAIN JS ===============-->
+      <script src="js/main.js"></script>
+      <script src="js/main1.js"></script>
+      
  <script>
    function loadCartItems() {
     var cartItems = JSON.parse(localStorage.getItem('cart')) || [];
