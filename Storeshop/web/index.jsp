@@ -117,7 +117,7 @@
             <div class="effect-img">
             <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
-                <button>add</button>
+                <h2>SHIRTS</h2>
                         </div></a>
             </div>
             </div>
@@ -125,7 +125,7 @@
             <div class="effect-img">
             <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
-                <button>add</button>
+                <h2>TROUSERS</h2>
             </div></a>
             </div>
         </div>
@@ -133,7 +133,7 @@
             <div class="effect-img">
             <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
-                <button>add</button>
+                <h2>T-SHIRTS</h2>
             </div></a>
             </div>
         </div>
@@ -141,7 +141,7 @@
             <div class="effect-img">
             <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
-                <button>add</button>
+                <h2>SHORTS</h2>
             </div></a>
             </div>
         </div>

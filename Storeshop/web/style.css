@@ -759,6 +759,10 @@ transform: scale(1.1) translateY(-20px);
   transform: translateY(30px);
   opacity: 0;
 }
+.effect-img:hover .inner h2{
+  transform: translateY(0);
+  opacity: 1;
+}
 /*====best sellers====*/
 .section-container {
     display: flex;
