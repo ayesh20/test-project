@@ -21,6 +21,9 @@
         <body  ><br>
 <center><div class="logo">
           <img src="images/logo1.png">
+          <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="filterItems()" placeholder="Search for items...">
+        </div>
     </div></center>
      
 
@@ -60,7 +63,7 @@
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.html" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
@@ -336,7 +339,21 @@ function addToCart() {
         updateCartCount(); // Update the cart count when the page loads
     });
 
-
+  function filterItems() {
+    var input, filter, cards, cardContainer, h3, title, i;
+    input = document.getElementById("searchInput");
+    filter = input.value.toUpperCase();
+    cardContainer = document.getElementsByClassName("products-grid")[0];
+    cards = cardContainer.getElementsByClassName("product-card");
+    for (i = 0; i < cards.length; i++) {
+        title = cards[i].dataset.title; // Assuming the title is stored in data-title attribute
+        if (title.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+        } else {
+            cards[i].style.display = "none";
+        }
+    }
+}
     </script>
 
       
