@@ -1401,3 +1401,424 @@ footer{
  margin-bottom: 20px;
 }
 }
+<<<<<<< Updated upstream
+=======
+/*==================================card pages edition==============================*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    /* Your navbar styles */
+}
+
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Grid styles */
+}
+
+.product-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    /* Product card styles */
+}
+#cardimg{
+    width: 100%;
+  height: 200px;
+}
+.product-card:hover .select-button {
+    display: block;
+}
+
+.select-button {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    /* Select button styles */
+}
+
+.product-info h3,
+.product-info p {
+    margin: 5px 0;
+}
+
+.product-details-modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Modal styles */
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.add-to-cart-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* Add to cart button styles */
+}
+
+
+/* Color Options */
+.color-options {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.color-options button {
+    border: none;
+    border-radius: 50%; /* Makes the button circular */
+    width: 20px; /* Size of the color button */
+    height: 20px; /* Size of the color button */
+    margin: 0 5px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Adds a small shadow to the button */
+    outline: none; /* Removes the outline to make it look better when clicked */
+}
+
+/* Each button should have a unique class for its color */
+.color-red { background-color: #ff0000; }
+.color-blue { background-color: #0000ff; }
+.color-black { background-color: #000000; }
+.color-yellow { background-color: #ffff00; }
+
+/* Size Options */
+.size-options {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.size-options button {
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 4px; /* Slight rounding of the corners */
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    outline: none;
+}
+
+.size-options button:hover,
+.size-options button:active {
+    background-color: #e0e0e0; /* Change the background on hover/active for visual feedback */
+}
+
+.size-options button.selected,
+.color-options button.selected {
+    border-color: #000; /* Highlights the selected size/color */
+}
+
+.select-button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    /* Select button styles */
+}
+
+/* Modal content styles updated to be more like your second image */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 50%; /* Adjust width as needed */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* Shadow for popup effect */
+    border-radius: 8px; /* Rounded corners for the modal */
+    position: relative; /* For absolute positioning the close button */
+}
+
+/* Close button position adjusted */
+.close {
+    color: #aaa;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.modal-content {
+    /* ... existing styles ... */
+    display: flex; /* Added for flex layout */
+    justify-content: space-between;
+}
+
+.modal-body {
+    display: flex;
+}
+
+.modal-images {
+    flex-basis: 40%; /* Adjust the width as necessary */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images vertically */
+    padding: 20px;
+}
+
+.main-image {
+    width: 100%; /* Adjust as necessary */
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    width: 60px; /* Adjust thumbnail size as necessary */
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.modal-details {
+    flex-basis: 60%; /* Adjust the width as necessary */
+    padding: 20px;
+}
+
+
+
+
+/* Style for the quantity input */
+.quantity-options {
+    margin: 20px 0;
+    
+}
+
+.quantity-options label {
+    margin-right: 10px;
+}
+
+.quantity-options input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/*--contact us--*/
+
+.contact {
+  color: white;
+  height: 300px;
+  background: url(images/cobg.jpg);
+  align-items: center;
+  width: 1500px;
+  margin-left: 10px;
+
+}
+
+.contact h2{
+    text-align: center;
+    color: #000;
+}
+
+.contact h4{
+    text-align: center;
+    color:purple;
+}
+
+.contact-us{
+   
+    margin-left: 100px;
+}
+
+.contitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 80%;
+    background: url("images/scsc.jpg") no-repeat;
+    background-size:contain;
+    margin-bottom: -50px;
+}
+
+.con-form{
+    background: url(images/conform.jpg);
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+}
+.con-form .title1{
+  color: #373333;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+.con-form form {
+  width: 450px;
+  background :transparent;
+  box-shadow: 0 0 20px 0 rgb(213, 212, 210);
+  margin-left: 450px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px) brightness(95%);
+  padding: 50px;
+}
+
+.con-form .inp_box{
+  border-radius: 10px;
+  height: 40px;
+  width: 350px;
+  padding: 10px;
+  border-style: none;
+}
+.btn2 {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color:rgb(94, 158, 61);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+}
+
+.btn2:hover{
+  transition: all 0.3s;
+  background-color: rgb(22, 22, 94);
+
+}
+
+
+/*======================================cart page ecition==========*/
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #eaeaea;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    resize: vertical;
+    border: 1px solid #ddd;
+}
+
+.subtotal-section {
+    text-align: right;
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #555;
+}
+
+.totalQuantity {
+    font-weight: bold;
+}
+
+/* Add additional styles for colors, fonts, and layouts as needed */
+.button-remove {
+    padding: 8px 16px;
+    background-color: #ff4d4d; /* Red color for remove */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button-remove:hover {
+    background-color: #ff6666; /* Lighter red on hover */
+    
+}
+/*======================================paymentgateway edition==========*/
+>>>>>>> Stashed changes
