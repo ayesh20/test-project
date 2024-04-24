@@ -67,7 +67,7 @@
          </nav>
       </header>
       
-      <div class="Contact"><br><br><br><br><br><br>
+      <div class="contact"><br><br><br><br><br><br>
           <h2>Contact US</h2><br>
           <h4><a href="index.jsp">Home</a>/Contact us</h4>
           <br><br><br><br><br><br><br><br><br>
