@@ -63,7 +63,7 @@
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.html" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>

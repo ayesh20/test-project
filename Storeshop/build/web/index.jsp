@@ -228,9 +228,7 @@
                    </div>
  
                    <div class="col6" id="contact">
-                       <h3>Contact us</h3>
-                       <div class="links">
-                           <a href="contact us.jsp">For Any Inquiry</a></div><br>
+                       <h3>Contact</h3>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
                           <p>FF-42, Procube Avenue, <br> NY, USA</p>
