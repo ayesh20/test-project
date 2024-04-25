@@ -79,67 +79,67 @@
         <!-- Product Card 1 -->
         <div class="product-card" data-id="1" data-title="color Shirt" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1111.jpg">
+                <img id="cardimg" src="images/shirt1.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful Shirt</h3>
-                <p> $278.50</p>
+                <h3>Printed Cuban Collar Shirt</h3>
+                <p>Rs.3,490.00</p>
             </div>
         </div>
         <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1112.jpg">
+                <img id="cardimg" src="images/shirt6.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful2 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Casual Wear Cuban Collar S/S Shirt</h3>
+                <p>Rs.3,490.00</p>
             </div>
         </div>
         <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1113.jpg">
+                <img id="cardimg" src="images/shirt3.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful3 Shirt</h3>
-                <p> $278.50</p>
+                <h3>Casual Stripe Detail Shirt</h3>
+                <p>Rs.3,490.00</p>
             </div>
         </div>
         <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1114.jpg">
+                <img id="cardimg" src="images/shirt4.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful14 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Casual Wear Two Tone Cuban Collar S/S Shirt</h3>
+                <p>Rs.4,890.00</p>
             </div>
         </div>
         <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1115.jpg">
+                <img id="cardimg" src="images/shirt8.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful5 Shirt</h3>
-                <p> $278.50</p>
+                <h3>Casual Wear Cuban Collar S/S Shirt</h3>
+                <p>Rs.3,490.00</p>
             </div>
         </div>
         <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1114.jpg">
+                <img id="cardimg" src="images/shirt2.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful16 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Casual Wear Check L/S Shirt</h3>
+                <p>Rs.5,490.00</p>
             </div>
         </div>
         <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1117.jpg">
+                <img id="cardimg" src="images/shirt7.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
@@ -149,12 +149,82 @@
         </div>
         <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1118.jpg">
+                <img id="cardimg" src="images/shirt5.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>Colorful18 Shirt</h3>
                 <p> $328.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt9.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt10.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt11.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt12.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt13.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt14.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/shirt15.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Colorful7 Shirt</h3>
+                <p> $278.50</p>
             </div>
         </div>
         <!-- Repeat for other product cards -->
