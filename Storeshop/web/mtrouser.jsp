@@ -79,7 +79,7 @@
         <!-- Product Card 1 -->
         <div class="product-card" data-id="1" data-title="color Shirt" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/pants2.jpg">
+                <img id="cardimg" src="images/pants1.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
