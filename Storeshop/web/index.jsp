@@ -141,7 +141,7 @@
             <div class="effect-img">
             <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
-                <h2>SHORT</h2>
+                <h2>SHORTS</h2>
             </div></a>
             </div>
         </div>
@@ -228,9 +228,7 @@
                    </div>
  
                    <div class="col6" id="contact">
-                       <h3>Contact us</h3>
-                       <div class="links">
-                           <a href="contact us.jsp">For Any Inquiry</a></div><br>
+                       <h3>Contact</h3>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
                           <p>FF-42, Procube Avenue, <br> NY, USA</p>
