@@ -989,7 +989,7 @@ transform: scale(1.1) translateY(-20px);
 
 .contact h4{
     text-align: center;
-    color:purple;
+    color:silver;
 }
 
 .contact-us{
@@ -1014,7 +1014,6 @@ section{
 }
 
 .con-form{
-    
     background-size: cover;
     color: white;
     min-height: 100vh;
