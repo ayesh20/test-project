@@ -212,6 +212,7 @@
                       <h3>Favourite</h3>
                       <div class="links">
                          <a href="mtrouser.jsp">Man Trousers</a>
+                         <a href="t-shirts.jsp">T-shirts</a>
                          <a href="mshirt.jsp">Shirts</a>
                          <a href="gallery.jsp">gallery</a>
                          <a href="shorts.jsp">Shorts</a>
