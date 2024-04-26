@@ -114,7 +114,7 @@
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>Colorful14 Shirt</h3>
-                <p> $328.50</p>
+                <p> Rs.328.50</p>
             </div>
         </div>
         <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">

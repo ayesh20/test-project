@@ -77,7 +77,7 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/4.jpg">
             </div>
@@ -87,7 +87,7 @@
                 <p> Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/5.jpg">
             </div>
@@ -97,7 +97,7 @@
                 <p> Rs 2,590.00 </p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/6.jpg">
             </div>
@@ -107,7 +107,7 @@
                 <p> Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/7.jpg">
             </div>
@@ -117,7 +117,7 @@
                 <p> Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/8.jpg">
             </div>
@@ -127,7 +127,7 @@
                 <p> Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="Crew Neck Slim Fit T-shirt" data-price="2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/9.jpg">
             </div>
@@ -137,7 +137,7 @@
                 <p>Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Crew Neck Slim Fit T-shirt" data-price=" Rs 2,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="Crew Neck Slim Fit T-shirt" data-price=" 2590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/10.jpg">
             </div>
@@ -147,7 +147,7 @@
                 <p>Rs 2,590.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Casual Wear Self collar L/S T-shirt" data-price=" Rs 4,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Casual Wear Self collar L/S T-shirt" data-price="4490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/12.jpg">
             </div>
@@ -158,7 +158,7 @@
             </div>
         </div>
         
-        <div class="product-card" data-id="8" data-title="Casual Wear Self collar L/S T-shirt" data-price="  Rs 3,290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="9" data-title="Casual Wear Self collar L/S T-shirt" data-price="3290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/14.jpg">
             </div>
@@ -169,7 +169,7 @@
             </div>
         </div>
         
-        <div class="product-card" data-id="8" data-title="Casual Wear Self collar L/S T-shirt" data-price="  Rs 3,290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="10" data-title="Casual Wear Self collar L/S T-shirt" data-price="3290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/16.jpg">
             </div>
@@ -180,7 +180,7 @@
             </div>
         </div>
         
-         <div class="product-card" data-id="8" data-title="Casual Wear Self collar L/S T-shirt" data-price=" Rs 3,290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+         <div class="product-card" data-id="11" data-title="Casual Wear Self collar L/S T-shirt" data-price="3290.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/17.jpg">
             </div>
@@ -191,7 +191,7 @@
             </div>
         </div>
         
-         <div class="product-card" data-id="8" data-title="Over Headed Hoodie Jersey" data-price="Rs 5,900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+         <div class="product-card" data-id="12" data-title="Over Headed Hoodie Jersey" data-price=" 5900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/18.jpg">
             </div>
@@ -202,7 +202,7 @@
             </div>
         </div>
         
-         <div class="product-card" data-id="8" data-title="Over Headed Hoodie Jersey" data-price="Rs 5,900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+         <div class="product-card" data-id="13" data-title="Over Headed Hoodie Jersey" data-price=" 5900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/19.jpg">
             </div>
@@ -213,7 +213,7 @@
             </div>
         </div>
         
-         <div class="product-card" data-id="8" data-title="Over Headed Hoodie Jersey" data-price="Rs 5,900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+         <div class="product-card" data-id="14" data-title="Over Headed Hoodie Jersey" data-price="5900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/20.jpg">
             </div>
@@ -224,7 +224,7 @@
             </div>
         </div>
         
-         <div class="product-card" data-id="8" data-title="Over Headed Hoodie Jersey" data-price="Rs 5,900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+         <div class="product-card" data-id="15" data-title="Over Headed Hoodie Jersey" data-price="5900.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/21.jpg">
             </div>

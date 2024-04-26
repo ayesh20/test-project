@@ -90,7 +90,7 @@
         <div class="cart-summary">
             
             <div class="subtotal-section">
-                <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                <p>Subtotal: Rs.<span id="subtotal">0.00</span></p>
                 <button class="button1" onclick="checkout()">Checkout</button>
             </div>
         </div>

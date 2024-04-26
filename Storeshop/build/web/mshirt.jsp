@@ -77,7 +77,7 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="Printed Cuban Collar Shirt" data-price="Rs.3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="Printed Cuban Collar Shirt" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt1.jpg">
             </div>
@@ -87,7 +87,7 @@
                 <p>Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="Rs.3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt6.jpg">
             </div>
@@ -97,7 +97,7 @@
                 <p>Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="Casual Stripe Detail Shirt" data-price="Rs.3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="Casual Stripe Detail Shirt" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt3.jpg">
             </div>
@@ -107,7 +107,7 @@
                 <p>Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="Casual Wear Two Tone Cuban Collar S/S Shirt" data-price="Rs.4,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="Casual Wear Two Tone Cuban Collar S/S Shirt" data-price="4890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt4.jpg">
             </div>
@@ -117,7 +117,7 @@
                 <p>Rs.4,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="Rs.3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt8.jpg">
             </div>
@@ -127,7 +127,7 @@
                 <p>Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="Casual Wear Check L/S Shirt" data-price="Rs.5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="Casual Wear Check L/S Shirt" data-price="5490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt2.jpg">
             </div>
@@ -137,7 +137,7 @@
                 <p>Rs.5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Casual Wear Flappkt L/S Shirt" data-price="Rs.4,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="Casual Wear Flappkt L/S Shirt" data-price="4490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt7.jpg">
             </div>
@@ -147,7 +147,7 @@
                 <p>Rs.4,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Casual Wear Check L/S Shirt" data-price="Rs.5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Casual Wear Check L/S Shirt" data-price="5490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt5.jpg">
             </div>
@@ -157,7 +157,7 @@
                 <p>Rs.5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Casual Cuban Shirt" data-price="Rs.5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="9" data-title="Casual Cuban Shirt" data-price="5490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt9.jpg">
             </div>
@@ -167,7 +167,7 @@
                 <p>Rs.5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Casual Wear Stripe Colour Blocked S/S Shirt" data-price="Rs.4,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="10" data-title="Casual Wear Stripe Colour Blocked S/S Shirt" data-price="4490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt10.jpg">
             </div>
@@ -177,7 +177,7 @@
                 <p>Rs.4,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Detailed Linen L/S Shirt" data-price="Rs.4,950.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="11" data-title="Detailed Linen L/S Shirt" data-price="4950.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt11.jpg">
             </div>
@@ -187,7 +187,7 @@
                 <p>Rs.4,950.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Detailed Linen L/S Shirt" data-price="Rs.4,950.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="12" data-title="Detailed Linen L/S Shirt" data-price="4950.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt12.jpg">
             </div>
@@ -197,7 +197,7 @@
                 <p>Rs.4,950.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Detailed Fannel L/S Shirt" data-price="Rs.4,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="13" data-title="Detailed Fannel L/S Shirt" data-price="4490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt13.jpg">
             </div>
@@ -207,7 +207,7 @@
                 <p>Rs.4,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Casual Wear Double Pkt S/S Shirt" data-price="Rs.4,190.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="14" data-title="Casual Wear Double Pkt S/S Shirt" data-price="4190.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt14.jpg">
             </div>
@@ -217,7 +217,7 @@
                 <p>Rs.4,190.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="Rs.3,590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="15" data-title="Casual Wear Cuban Collar S/S Shirt" data-price="3590.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/shirt15.jpg">
             </div>
