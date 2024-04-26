@@ -510,6 +510,8 @@ body, h1, h2, p {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+    width: 1400px;
+    margin-left: -120px;
 }
 
 .hero-image-container,
@@ -565,7 +567,9 @@ body, h1, h2, p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; /* Center content for all screen sizes */
-    text-align: center; /* Ensure text aligns well in smaller screens */
+    text-align: center;
+    width: 100%;
+    margin-left: -10px;/* Ensure text aligns well in smaller screens */
 }
 
 .hero-image-container {
@@ -608,6 +612,8 @@ body, h1, h2, p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 1400px;
+    margin-left: -120px;
 }
 
 .category-image-container {
@@ -636,6 +642,9 @@ body, h1, h2, p {
 
     .categories-section {
         justify-content: center;
+        display: block;
+        width: 789px;
+    margin-left: 20px;
     }
 
     .category-image-container {
@@ -657,7 +666,7 @@ body, h1, h2, p {
     }
 }
 /*=====3D vedio section over===*/
-/*=====catogaries===*/
+/*=====catogaries select item===*/
 .effect-img{
   width: 430px;
   height: 400px;
@@ -695,7 +704,7 @@ transform: scale(1.1) translateY(-20px);
   transform: translateY(0);
   opacity: 1;
 }
-/*====best sellers====*/
+/*====OUR PHILOSOPHY====*/
 .section-container {
     display: flex;
     flex-wrap: wrap;
@@ -741,7 +750,7 @@ transform: scale(1.1) translateY(-20px);
     }
   }
 
-/*=====best sells===*/
+/*=====OUR PHILOSOPHY===*/
 .header12 {
     text-align: center;
     margin-bottom: 20px;
@@ -810,7 +819,7 @@ transform: scale(1.1) translateY(-20px);
     }
 }
 
-/*======best sell cards edition======*/
+/*======OUR PHILOSOPHY cards edition======*/
 .container1{
   width: 100%;
   right: 10px;

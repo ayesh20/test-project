@@ -56,11 +56,11 @@
                   <li><a href="aboutus.jsp" class="nav__link">About us</a></li>
                   <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="login.jsp" id="cdn"><i class="fa fa-user" aria-hidden="true"></i>My Account</a>
+                         <a href="aboutus.jsp"  class="nav__link">About us<i class="fa fa-user" aria-hidden="true"></i></a>
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="aboutus.jsp"  class="nav__link"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
