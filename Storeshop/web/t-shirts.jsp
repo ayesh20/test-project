@@ -240,48 +240,7 @@
         
         <!-- Repeat for other product cards -->
     </div>
-
-    <!-- ... [rest of your existing code for modal] ... -->
-
-    <!-- The modal now includes selections for size and color -->
-    <div class="product-details-modal" id="productDetailsModal">
-        <div class="modal-content">
-            <span class="close" onclick="hideProductDetails()">&times;</span>
-            <div class="modal-body">
-                <div class="modal-images">
-                    <img id="modalImage"  alt="Shirt Image" class="main-image">
-                    
-                </div>
-            <div class="modal-details">
-                <h3 id="modalTitle"></h3>
-                <p id="modalPrice"></p>
-                <div class="quantity-options">
-                    <label for="quantity">Quantity:</label>
-                    <input type="number" id="quantity" name="quantity" min="1" value="1"</td>
-                </div>
-                <div class="color-options">
-                    <label for="quantity">Color:</label>
-                    <button class="color-red" onclick="selectColor('red')"></button>
-                    <button class="color-blue" onclick="selectColor('blue')"></button>
-                    <button class="color-black" onclick="selectColor('black')"></button>
-                    <button class="color-yellow" onclick="selectColor('yellow')"></button>
-                </div>
-                <div class="size-options">
-                    <label for="quantity">Size:</label>
-                        <button onclick="selectSize('S')">S</button>
-                        <button onclick="selectSize('M')">M</button>
-                        <button onclick="selectSize('L')">L</button>
-                        <button onclick="selectSize('XL')">XL</button>
-                        <button onclick="selectSize('XXL')">XXL</button>
-                </div>
-                <button class="add-to-cart-btn" onclick="addToCart()">Add to cart</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ... [rest of your existing code] ... -->
-      
-<%--=====Footer======--%>
+    <%--=====Footer======--%>
      <br><br><br>
       <footer>
          <div class="container6">
@@ -343,6 +302,48 @@
  
          </div>
       </footer> 
+
+    <!-- ... [rest of your existing code for modal] ... -->
+
+    <!-- The modal now includes selections for size and color -->
+    <div class="product-details-modal" id="productDetailsModal">
+        <div class="modal-content">
+            <span class="close" onclick="hideProductDetails()">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img id="modalImage"  alt="Shirt Image" class="main-image">
+                    
+                </div>
+            <div class="modal-details">
+                <h3 id="modalTitle"></h3>
+                <p id="modalPrice"></p>
+                <div class="quantity-options">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"</td>
+                </div>
+                <div class="color-options">
+                    <label for="quantity">Color:</label>
+                    <button class="color-red" onclick="selectColor('red')"></button>
+                    <button class="color-blue" onclick="selectColor('blue')"></button>
+                    <button class="color-black" onclick="selectColor('black')"></button>
+                    <button class="color-yellow" onclick="selectColor('yellow')"></button>
+                </div>
+                <div class="size-options">
+                    <label for="quantity">Size:</label>
+                        <button onclick="selectSize('S')">S</button>
+                        <button onclick="selectSize('M')">M</button>
+                        <button onclick="selectSize('L')">L</button>
+                        <button onclick="selectSize('XL')">XL</button>
+                        <button onclick="selectSize('XXL')">XXL</button>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart()">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... [rest of your existing code] ... -->
+      
+
 
 <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
