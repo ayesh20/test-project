@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>pants-funkyboyz</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -59,11 +59,11 @@
                   <li><a href="aboutus.jsp" class="nav__link">About us</a></li>
                   <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="login.jsp"  class="nav__link">My Account<i class="fa fa-user" aria-hidden="true"></i></a>
+                         <a href="login.jsp" id="cdn"><i class="fa fa-user" aria-hidden="true"></i>My Account</a>
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="cart.jsp"  class="nav__link"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.jsp" id="cdn"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
@@ -77,84 +77,104 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="Denim Pant (Mid Wash)" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="Denim Pant (Mid Wash)" data-price="Rs 7,990.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants1.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>Denim Pant (Mid Wash)</h3>
-                <p> $278.50</p>
+                <p> Rs 7,990.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="Denim Pant (Dark Wash)" data-price="228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="Denim Pant (Dark Wash)" data-price="Rs 7,990.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants2.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>Denim Pant (Dark Wash)</h3>
-                <p> $288.50</p>
+                <p> Rs 7,990.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="CASUAL WEAR CARGO PANT" data-price="378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="CASUAL WEAR CARGO PANT" data-price="Rs 5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants3.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>CASUAL WEAR CARGO PANT</h3>
-                <p> $250.50</p>
+                <p> Rs 5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="5PKT Corduroy Trouser" data-price="428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="5PKT Corduroy Trouser" data-price="Rs 5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants4.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>5PKT Corduroy Trouser</h3>
-                <p> $320.50</p>
+                <p> Rs 5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="5 PKT Denim Trouser" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="5 PKT Denim Trouser" data-price="Rs 5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants5.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>5 PKT Denim Trouser</h3>
-                <p> $320.50</p>
+                <p> Rs 5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="5PKT Corduroy Trouser" data-price="628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="5PKT Corduroy Trouser" data-price="Rs 5,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants6.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>5PKT Corduroy Trouser</h3>
-                <p> $328.50</p>
+                <p> Rs 5,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="ACTIVE WEAR JOGGER PANT" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="ACTIVE WEAR JOGGER PANT" data-price="Rs 4,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants7.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>ACTIVE WEAR JOGGER PANT</h3>
-                <p> $270.50</p>
+                <p> Rs 4,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="5PKT Corduroy Trouser" data-price="828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="5PKT Corduroy Trouser" data-price="Rs 6,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/pants8.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
                 <h3>5PKT Corduroy Trouser</h3>
-                <p> $328.50</p>
+                <p> Rs 6,490.00</p>
+            </div>
+        </div>
+           <div class="product-card" data-id="7" data-title="Big & Tall Navy Slim Fit Trousers " data-price="Rs 5,550.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/pants9.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Big & Tall Navy Slim Fit Trousers </h3>
+                <p> Rs 5,550.00</p>
+            </div>
+        </div>
+           <div class="product-card" data-id="7" data-title="Men s casual jeans trousers Khaki" data-price="Rs 5,550.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/pants10.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Men s casual jeans trousers Khaki</h3>
+                <p> Rs 5,550.00</p>
             </div>
         </div>
         <!-- Repeat for other product cards --> 
