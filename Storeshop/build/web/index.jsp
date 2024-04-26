@@ -18,7 +18,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="images/fav.png">  
 	</head>
-        <body  ><br>
+        <body onload="slider()" ><br>
 <center><div class="logo">
           <img src="images/logo1.png">
     </div></center>
@@ -56,11 +56,11 @@
                   <li><a href="aboutus.jsp" class="nav__link">About us</a></li>
                   <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="aboutus.jsp"  class="nav__link">About us<i class="fa fa-user" aria-hidden="true"></i></a>
+                         <a href="login.jsp"  class="nav__link">My Account<i class="fa fa-user" aria-hidden="true"></i></a>
 </div></li>
           <li class="dropdown__item">
                      <div class="nav__link">
-                         <a href="aboutus.jsp"  class="nav__link"><span class="totalQuantity"  id="cart-count">0</span>
+                         <a href="cart.jsp"  class="nav__link"><span class="totalQuantity"  id="cart-count">0</span>
   <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
 </a>
 </div></li>
@@ -71,25 +71,45 @@
          </nav>
       </header>
       <br>
-      <div class="main-container">
-          
-    <div class="hero-section">
-        <div class="hero-image-container">
-          
-            <img src="images/1115.jpg" alt="Featured Image 1" class="side-image">
-            <div class="hero-text">
-            <h1>PRINTED PLAYBOOK</h1>
-            <p>Make your business a brand. Make your business a brand.</p><br>
-            <button class="shop-now-btn"><a href="login.jsp"> SHOP NOW</a></button>
-        </div>
-            <img src="images/1114.jpg" alt="Featured Image 2" class="side-image">
-          
-        </div>
-      
+       <div class="banner">
+    <div class="slider">
+        <img src="images/1111.jpg" id="slideimg">
     </div>
-          
-    
-    
+    <div class="overlay">
+      
+        <div class="content">
+        <br><br>
+            <h2>PRINTED PLAYBOOK</h2>
+            <br>
+            <h4>Make Your Business A Brand. Make Your Business A Brand.</h4>
+            <br><br>
+             
+            <div>
+                <br><br>
+            <a> <button type="button" id="button1">Shop Now</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var slideimg= document.getElementById("slideimg");
+        var images = new Array(
+        "images/1111.jpg",
+            "images/1113.jpg",
+            "images/1114.jpg",
+        );
+        var len = images.length;
+        var i= 0;
+        function slider(){
+            if(i > len-1){
+                i = 0;
+            }
+            slideimg.src = images[i];
+            i++;
+            setTimeout('slider()',4000);
+        }
+    </script> 
+      
     
            <div class="categories-title">select item</div>
 
