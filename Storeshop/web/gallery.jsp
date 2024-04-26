@@ -78,6 +78,7 @@
 </div>
   <br>
   <%--======gallery cards edition========*/--%>
+  <center>
 <div class="container1">
    <div class="row1">
    <div class="column">
@@ -129,7 +130,7 @@
        </div>
    </div>
 </div>
- 
+      <br>
   <div class="container1">
    <div class="row1">
    <div class="column">
@@ -182,7 +183,7 @@
        </div>
    </div> 
       </div>
-
+      <br>
 <div class="container1">
    <div class="row1">
    <div class="column">
@@ -235,7 +236,7 @@
        </div>
    </div> 
       </div>
-
+      <br>
 <div class="container1">
    <div class="row1">
    <div class="column">
@@ -288,6 +289,7 @@
        </div>
    </div> 
       </div>
+</center>
       <br><br><br> 
       <%--======card carosal=====--%>
       <div class="container17">
