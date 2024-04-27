@@ -77,129 +77,139 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="color Shirt" data-price="178.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1111.jpg">
+                <img id="cardimg" src="images/a.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful Shirt</h3>
-                <p> $278.50</p>
+                <h3>Sweat Short</h3>
+                <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="color2 Shirt" data-price="228.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1112.jpg">
+                <img id="cardimg" src="images/b.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful2 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Sweat Short</h3>
+                <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="color3 Shirt" data-price="378.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1113.jpg">
+                <img id="cardimg" src="images/c.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful3 Shirt</h3>
-                <p> $278.50</p>
+                <h3>Sweat Short</h3>
+                <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="color14 Shirt" data-price="428.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1114.jpg">
+                <img id="cardimg" src="images/d.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful14 Shirt</h3>
-                <p> Rs.328.50</p>
+                <h3>Sweat Short</h3>
+                <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="color5 Shirt" data-price="578.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1115.jpg">
+                <img id="cardimg" src="images/e.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful5 Shirt</h3>
-                <p> $278.50</p>
+                <h3>Sweat Short</h3>
+                <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="color16 Shirt" data-price="628.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1116.jpg">
+                <img id="cardimg" src="images/f.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful16 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Active Wear Short</h3>
+                <p> Rs.2,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="color7 Shirt" data-price="778.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="Side Contrast Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1117.jpg">
+                <img id="cardimg" src="images/h.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful7 Shirt</h3>
-                <p> $278.50</p>
+                <h3>Side Contrast Active Wear Short</h3>
+                <p> Rs.2,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="color18 Shirt" data-price="828.36" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
-                <img id="cardimg" src="images/1118.jpg">
+                <img id="cardimg" src="images/i.jpg">
             </div>
             <div class="select-button">Select item</div>
             <div class="product-info">
-                <h3>Colorful18 Shirt</h3>
-                <p> $328.50</p>
+                <h3>Active Wear Short</h3>
+                <p> Rs.2,890.00</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="8" data-title="Active Wear Short with Contrast" data-price="2,690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/j.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Active Wear Short with Contrast</h3>
+                <p> Rs.2,690.00</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="8" data-title="Active Wear Detail Short" data-price="2,690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/k.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Active Wear Detail Short</h3>
+                <p> Rs.2,690.00</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="8" data-title="Active Wear Short with Back Panel" data-price="2,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/l.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Active Wear Short with Back Panel</h3>
+                <p> Rs.2,490.00</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="8" data-title="Olive Linen Draw Cord Short" data-price="3,250.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/m.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Olive Linen Draw Cord Short</h3>
+                <p> Rs.3,250.00</p>
+            </div>
+        </div>
+        <div class="product-card" data-id="8" data-title="Linen Draw Cord Short" data-price="2,450.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+            <div class="product-image">
+                <img id="cardimg" src="images/n.jpg">
+            </div>
+            <div class="select-button">Select item</div>
+            <div class="product-info">
+                <h3>Linen Draw Cord Short</h3>
+                <p> Rs.2,450.00</p>
             </div>
         </div>
         <!-- Repeat for other product cards -->
     </div>
-
-    <!-- ... [rest of your existing code for modal] ... -->
-
-    <!-- The modal now includes selections for size and color -->
-    <div class="product-details-modal" id="productDetailsModal">
-        <div class="modal-content">
-            <span class="close" onclick="hideProductDetails()">&times;</span>
-            <div class="modal-body">
-                <div class="modal-images">
-                    <img id="modalImage"  alt="Shirt Image" class="main-image">
-                    
-                </div>
-            <div class="modal-details">
-                <h3 id="modalTitle"></h3>
-                <p id="modalPrice"></p>
-                <div class="quantity-options">
-                    <label for="quantity">Quantity:</label>
-                    <input type="number" id="quantity" name="quantity" min="1" value="1"</td>
-                </div>
-                <div class="color-options">
-                    <label for="quantity">Color:</label>
-                    <button class="color-red" onclick="selectColor('red')"></button>
-                    <button class="color-blue" onclick="selectColor('blue')"></button>
-                    <button class="color-black" onclick="selectColor('black')"></button>
-                    <button class="color-yellow" onclick="selectColor('yellow')"></button>
-                </div>
-                <div class="size-options">
-                    <label for="quantity">Size:</label>
-                        <button onclick="selectSize('S')">S</button>
-                        <button onclick="selectSize('M')">M</button>
-                        <button onclick="selectSize('L')">L</button>
-                        <button onclick="selectSize('XL')">XL</button>
-                        <button onclick="selectSize('XXL')">XXL</button>
-                </div>
-                <button class="add-to-cart-btn" onclick="addToCart()">Add to cart</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- ... [rest of your existing code] ... -->
-<%--=====Footer======--%>
+    <%--=====Footer======--%>
      <br><br><br>
       <footer>
          <div class="container6">
@@ -253,6 +263,47 @@
  
          </div>
       </footer> 
+
+
+    <!-- ... [rest of your existing code for modal] ... -->
+
+    <!-- The modal now includes selections for size and color -->
+    <div class="product-details-modal" id="productDetailsModal">
+        <div class="modal-content">
+            <span class="close" onclick="hideProductDetails()">&times;</span>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <img id="modalImage"  alt="Shirt Image" class="main-image">
+                    
+                </div>
+            <div class="modal-details">
+                <h3 id="modalTitle"></h3>
+                <p id="modalPrice"></p>
+                <div class="quantity-options">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1"</td>
+                </div>
+                <div class="color-options">
+                    <label for="quantity">Color:</label>
+                    <button class="color-red" onclick="selectColor('red')"></button>
+                    <button class="color-blue" onclick="selectColor('blue')"></button>
+                    <button class="color-black" onclick="selectColor('black')"></button>
+                    <button class="color-yellow" onclick="selectColor('yellow')"></button>
+                </div>
+                <div class="size-options">
+                    <label for="quantity">Size:</label>
+                        <button onclick="selectSize('S')">S</button>
+                        <button onclick="selectSize('M')">M</button>
+                        <button onclick="selectSize('L')">L</button>
+                        <button onclick="selectSize('XL')">XL</button>
+                        <button onclick="selectSize('XXL')">XXL</button>
+                </div>
+                <button class="add-to-cart-btn" onclick="addToCart()">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ... [rest of your existing code] ... -->
 
 <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
