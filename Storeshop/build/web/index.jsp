@@ -110,13 +110,13 @@
         }
     </script> 
       
-    
+    <br><br>
            <div class="categories-title">select item</div>
-
+           <br>
     <div class="categories-section">
         <div class="category-image-container">
             <div class="effect-img">
-            <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
+            <a href="mshirt.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
                 <h2>SHIRTS</h2>
                         </div></a>
@@ -124,7 +124,7 @@
             </div>
         <div class="category-image-container">
             <div class="effect-img">
-            <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
+            <a href="mtrouser.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
                 <h2>TROUSERS</h2>
             </div></a>
@@ -132,7 +132,7 @@
         </div>
         <div class="category-image-container">
             <div class="effect-img">
-            <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
+            <a href="t-shirts.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
                 <h2>T-SHIRTS</h2>
             </div></a>
@@ -140,7 +140,7 @@
         </div>
         <div class="category-image-container">
             <div class="effect-img">
-            <a href="idex.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
+            <a href="shorts.jsp" id="main"><img src="images/1114.jpg" alt="Category Image 3" class="category-image">
             <div class="inner">
                 <h2>SHORTS</h2>
             </div></a>
@@ -148,10 +148,12 @@
         </div>
     </div>
 </div>
+<br><br><br>
     <div class="header12">
     <h1>OUR PHILOSOPHY</h1>
     <div class="underline"></div>
     <div class="section-container">
+        <br><br>
   <!-- Section 1 -->
   <div class="section">
     <img src="images/1113.jpg" alt="Hybrid and Inventive Collection">
@@ -196,8 +198,8 @@
                    <div class="col6" id="company">
                        <img src="images/logo.png" alt="" class="logo">
                        <p>
-                         We are specialized in designings, make your business a brand.
-                         Try our premium services.
+                         We are provided better designings, make your look a brand.
+                         Try our premium cloths.
                        </p>
                        <div class="social6">
                          <a href="#"><i class="fab fa-facebook"></i></a>
@@ -213,28 +215,19 @@
                       <h3>Favourite</h3>
                       <div class="links">
                          <a href="mtrouser.jsp">Man Trousers</a>
-                         <a href="t-shirts.jsp">T-shirts</a>
                          <a href="mshirt.jsp">Shirts</a>
                          <a href="gallery.jsp">gallery</a>
                          <a href="shorts.jsp">Shorts</a>
                       </div>
                    </div>
  
-                   <div class="col6" id="useful-links">
-                      <h3>Links</h3>
-                      <div class="links">
-                         <a href="aboutus.jsp">About</a>
-                         <a href="#">Men</a>
-                         <a href="manother.jsp">others</a>
-                      </div>
-                   </div>
+                   
  
                    <div class="col6" id="contact">
-                       <h3>Contact</h3>
-                       <div class="links"><a href="contact us.jsp">For Any Inquiry</a></div>
+                       <a href="contact us.jsp"><h3>Contact</h3></a>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
-                          <p>FF-42, Procube Avenue, <br> NY, USA</p>
+                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
                        </div>
                        <div class="contact-details">
                           <i class="fa fa-phone"></i>

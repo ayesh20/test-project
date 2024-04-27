@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>short-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -77,7 +77,7 @@
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
-        <div class="product-card" data-id="1" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="1" data-title="Sweat Short" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/a.jpg">
             </div>
@@ -87,7 +87,7 @@
                 <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="2" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="2" data-title="Sweat Short" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/b.jpg">
             </div>
@@ -97,7 +97,7 @@
                 <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="3" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="3" data-title="Sweat Short" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/c.jpg">
             </div>
@@ -107,7 +107,7 @@
                 <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="4" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="4" data-title="Sweat Short" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/d.jpg">
             </div>
@@ -117,7 +117,7 @@
                 <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="5" data-title="Sweat Short" data-price="3,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="5" data-title="Sweat Short" data-price="3490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/e.jpg">
             </div>
@@ -127,7 +127,7 @@
                 <p> Rs.3,490.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="6" data-title="Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="6" data-title="Active Wear Short" data-price="2890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/f.jpg">
             </div>
@@ -137,7 +137,7 @@
                 <p> Rs.2,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="7" data-title="Side Contrast Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="7" data-title="Side Contrast Active Wear Short" data-price="2890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/h.jpg">
             </div>
@@ -147,7 +147,7 @@
                 <p> Rs.2,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Active Wear Short" data-price="2,890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Active Wear Short" data-price="2890.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/i.jpg">
             </div>
@@ -157,7 +157,7 @@
                 <p> Rs.2,890.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Active Wear Short with Contrast" data-price="2,690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Active Wear Short with Contrast" data-price="2690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/j.jpg">
             </div>
@@ -167,7 +167,7 @@
                 <p> Rs.2,690.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Active Wear Detail Short" data-price="2,690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Active Wear Detail Short" data-price="2690.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/k.jpg">
             </div>
@@ -177,7 +177,7 @@
                 <p> Rs.2,690.00</p>
             </div>
         </div>
-        <div class="product-card" data-id="8" data-title="Active Wear Short with Back Panel" data-price="2,490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
+        <div class="product-card" data-id="8" data-title="Active Wear Short with Back Panel" data-price="2490.00" onmouseover="showSelectButton(this)" onmouseout="hideSelectButton(this)" onclick="showProductDetails(this)">
             <div class="product-image">
                 <img id="cardimg" src="images/l.jpg">
             </div>
@@ -217,8 +217,8 @@
                    <div class="col6" id="company">
                        <img src="images/logo.png" alt="" class="logo">
                        <p>
-                         We are specialized in designings, make your business a brand.
-                         Try our premium services.
+                         We are provided better designings, make your look a brand.
+                         Try our premium cloths.
                        </p>
                        <div class="social6">
                          <a href="#"><i class="fab fa-facebook"></i></a>
@@ -243,10 +243,10 @@
                    
  
                    <div class="col6" id="contact">
-                       <h3>Contact</h3>
+                       <a href="contact us.jsp"><h3>Contact</h3></a>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
-                          <p>FF-42, Procube Avenue, <br> NY, USA</p>
+                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
                        </div>
                        <div class="contact-details">
                           <i class="fa fa-phone"></i>

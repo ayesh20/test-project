@@ -133,7 +133,7 @@ a {
 .nav__link {
   color: black;
   background-color: transparent;
-  font-weight:400;
+  font-weight:500;
   padding: 1.25rem 1.5rem;
   display: flex;
   justify-content: space-between;
@@ -570,12 +570,13 @@ input:focus ~ label{
     margin: 0 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #fe7250;
-    background: #fe7250;
+    border: 2px solid #fff;
+    background: transparent;
     cursor: pointer;
+    color: #fff;
 }
 #button1:hover{
-  background: blue;
+  background: #33ffff;
     border: 2px solid #fff;
     color: #fff;
 }

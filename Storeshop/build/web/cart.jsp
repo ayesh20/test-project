@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>cart-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -16,7 +16,7 @@
 <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="images/fav.png">  
+    <link rel="shortcut icon" href="images/logo2.png">  
 	</head>
         <body  ><br>
 <center><div class="logo">
@@ -97,7 +97,60 @@
     </main>
 
     <!-- ... (existing footer content) ... -->
-
+<%--=====Footer======--%>
+     <br><br><br>
+      <footer>
+         <div class="container6">
+             <div class="row6">
+                   <div class="col6" id="company">
+                       <img src="images/logo.png" alt="" class="logo">
+                       <p>
+                         We are provided better designings, make your look a brand.
+                         Try our premium cloths.
+                       </p>
+                       <div class="social6">
+                         <a href="#"><i class="fab fa-facebook"></i></a>
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+                         <a href="#"><i class="fab fa-youtube"></i></a>
+                         <a href="#"><i class="fab fa-twitter"></i></a>
+                         <a href="#"><i class="fab fa-linkedin"></i></a>
+                       </div>
+                   </div>
+ 
+ 
+                   <div class="col6" id="services">
+                      <h3>Favourite</h3>
+                      <div class="links">
+                         <a href="mtrouser.jsp">Man Trousers</a>
+                         <a href="mshirt.jsp">Shirts</a>
+                         <a href="gallery.jsp">gallery</a>
+                         <a href="shorts.jsp">Shorts</a>
+                      </div>
+                   </div>
+ 
+                   
+ 
+                   <div class="col6" id="contact">
+                       <a href="contact us.jsp"><h3>Contact</h3></a>
+                       <div class="contact-details">
+                          <i class="fa fa-location"></i>
+                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
+                       </div>
+                       <div class="contact-details">
+                          <i class="fa fa-phone"></i>
+                          <p>+1-8755856858</p>
+                       </div>
+                   </div>
+             </div>
+ <br><br><br><br>
+             <div class="col6" >
+                <div class="col61">      
+                    <font size="4.3rem" > All Right Received.</font>
+                </div>
+                   </div>
+ 
+         </div>
+      </footer> 
     <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
       <script src="js/main1.js"></script>
@@ -153,6 +206,7 @@
 
     function checkout() {
         alert('Proceed to checkout...');
+        window.location.href = "checkout.jsp";
         // Placeholder for actual checkout process
     }
 

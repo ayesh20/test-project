@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>Hotel Reservation</title>
+		<title>gallery-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -86,14 +86,7 @@
        <div class="effect-img">
            <img src="images/1118.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Bangkok city tour</h2>
-               <div class="effect-btn">
-               <a href="bangkokcitytour.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -102,14 +95,7 @@
        <div class="effect-img">
            <img src="images/1115.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>4 Island Tour</h2>
-               <div class="effect-btn">
-               <a href="4islandtour.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -117,14 +103,7 @@
        <div class="effect">
        <div class="effect-img">
            <img src="images/1111.jpg">
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Floating Market</h2>
-               <div class="effect-btn">
-               <a href="Floating%20Market%20Pattaya.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+         
            </div>
        </div>
        </div>
@@ -138,14 +117,7 @@
        <div class="effect-img">
            <img src="images/1112.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Phi Phi Island Tour</h2>
-               <div class="effect-btn">
-               <a href="Phi%20Phi%20Island%20Tour.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -154,14 +126,7 @@
        <div class="effect-img">
            <img src="images/1113.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Sanctuary of Truth</h2>
-               <div class="effect-btn">
-               <a href="Sanctuary%20of%20Truth.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -170,14 +135,7 @@
        <div class="effect-img">
            <img src="images/1114.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Under Water World</h2>
-               <div class="effect-btn">
-               <a href="Under%20Water%20World.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+        
            </div>
        </div>
        </div>
@@ -191,14 +149,7 @@
        <div class="effect-img">
            <img src="images/1112.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Phi Phi Island Tour</h2>
-               <div class="effect-btn">
-               <a href="Phi%20Phi%20Island%20Tour.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -207,14 +158,7 @@
        <div class="effect-img">
            <img src="images/1113.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Sanctuary of Truth</h2>
-               <div class="effect-btn">
-               <a href="Sanctuary%20of%20Truth.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -223,14 +167,7 @@
        <div class="effect-img">
            <img src="images/1114.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Under Water World</h2>
-               <div class="effect-btn">
-               <a href="Under%20Water%20World.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -244,14 +181,7 @@
        <div class="effect-img">
            <img src="images/1112.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Phi Phi Island Tour</h2>
-               <div class="effect-btn">
-               <a href="Phi%20Phi%20Island%20Tour.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -260,14 +190,6 @@
        <div class="effect-img">
            <img src="images/1113.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Sanctuary of Truth</h2>
-               <div class="effect-btn">
-               <a href="Sanctuary%20of%20Truth.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
            </div>
        </div>
        </div>
@@ -276,14 +198,7 @@
        <div class="effect-img">
            <img src="images/1114.jpg">
            
-           <div class="effect-text">
-           <div class="inner">
-               <h2>Under Water World</h2>
-               <div class="effect-btn">
-               <a href="Under%20Water%20World.php" class="btn1">Read More</a>
-               </div>
-               </div>
-           </div>
+           
            </div>
        </div>
        </div>
@@ -337,8 +252,8 @@
                    <div class="col6" id="company">
                        <img src="images/logo.png" alt="" class="logo">
                        <p>
-                         We are specialized in designings, make your business a brand.
-                         Try our premium services.
+                         We are provided better designings, make your look a brand.
+                         Try our premium cloths.
                        </p>
                        <div class="social6">
                          <a href="#"><i class="fab fa-facebook"></i></a>
@@ -360,20 +275,13 @@
                       </div>
                    </div>
  
-                   <div class="col6" id="useful-links">
-                      <h3>Links</h3>
-                      <div class="links">
-                         <a href="aboutus.jsp">About</a>
-                         <a href="#">Men</a>
-                         <a href="manother.jsp">others</a>
-                      </div>
-                   </div>
+                   
  
                    <div class="col6" id="contact">
-                       <h3>Contact</h3>
+                       <a href="contact us.jsp"><h3>Contact</h3></a>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
-                          <p>FF-42, Procube Avenue, <br> NY, USA</p>
+                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
                        </div>
                        <div class="contact-details">
                           <i class="fa fa-phone"></i>
@@ -389,7 +297,7 @@
                    </div>
  
          </div>
-      </footer> 
+      </footer>  
 
 
       

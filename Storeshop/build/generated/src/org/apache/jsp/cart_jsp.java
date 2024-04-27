@@ -47,7 +47,7 @@ public final class cart_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html lang = \"en\">\r\n");
       out.write("\t<head>\r\n");
-      out.write("\t\t<title>clothe store</title>\r\n");
+      out.write("\t\t<title>cart-FUNKYBOYZ</title>\r\n");
       out.write("\t\t<meta charset = \"utf-8\" />\r\n");
       out.write("\t\t<meta name = \"viewport\" content = \"width=device-width, initial-scale=1.0\" />\r\n");
       out.write("\t\t<link rel = \"stylesheet\" type = \"text/css\" href = \"css/bootstrap.css \" />\r\n");
@@ -59,7 +59,7 @@ public final class cart_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t</head>\r\n");
       out.write("        <body  ><br>\r\n");
       out.write("<center><div class=\"logo\">\r\n");
-      out.write("          <img src=\"images/logo1.png\">\r\n");
+      out.write("          <img src=\"images/logo2.png\">\r\n");
       out.write("    </div></center>\r\n");
       out.write("     \r\n");
       out.write("\r\n");
@@ -95,11 +95,11 @@ public final class cart_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                  <li><a href=\"aboutus.jsp\" class=\"nav__link\">About us</a></li>\r\n");
       out.write("                  <li class=\"dropdown__item\">\r\n");
       out.write("                     <div class=\"nav__link\">\r\n");
-      out.write("                         <a href=\"login.jsp\" id=\"cdn\"><i class=\"fa fa-user\" aria-hidden=\"true\"></i>My Account</a>\r\n");
+      out.write("                         <a href=\"login.jsp\"  class=\"nav__link\">My Account<i class=\"fa fa-user\" aria-hidden=\"true\"></i></a>\r\n");
       out.write("</div></li>\r\n");
       out.write("          <li class=\"dropdown__item\">\r\n");
       out.write("                     <div class=\"nav__link\">\r\n");
-      out.write("                         <a href=\"cart.jsp\" id=\"cdn\"><span class=\"totalQuantity\"  id=\"cart-count\">0</span>\r\n");
+      out.write("                         <a href=\"cart.jsp\"  class=\"nav__link\"><span class=\"totalQuantity\"  id=\"cart-count\">0</span>\r\n");
       out.write("  <i class=\"fa fa-cart-arrow-down\" aria-hidden=\"true\"></i>  <!-- Initial count is 0 -->My Cart\r\n");
       out.write("</a>\r\n");
       out.write("</div></li>\r\n");
@@ -129,7 +129,7 @@ public final class cart_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <div class=\"cart-summary\">\r\n");
       out.write("            \r\n");
       out.write("            <div class=\"subtotal-section\">\r\n");
-      out.write("                <p>Subtotal: $<span id=\"subtotal\">0.00</span></p>\r\n");
+      out.write("                <p>Subtotal: Rs.<span id=\"subtotal\">0.00</span></p>\r\n");
       out.write("                <button class=\"button1\" onclick=\"checkout()\">Checkout</button>\r\n");
       out.write("            </div>\r\n");
       out.write("        </div>\r\n");
@@ -137,6 +137,10 @@ public final class cart_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("    <!-- ... (existing footer content) ... -->\r\n");
       out.write("\r\n");
+      out.write("    <!--=============== MAIN JS ===============-->\r\n");
+      out.write("      <script src=\"js/main.js\"></script>\r\n");
+      out.write("      <script src=\"js/main1.js\"></script>\r\n");
+      out.write("      \r\n");
       out.write(" <script>\r\n");
       out.write("   function loadCartItems() {\r\n");
       out.write("    var cartItems = JSON.parse(localStorage.getItem('cart')) || [];\r\n");

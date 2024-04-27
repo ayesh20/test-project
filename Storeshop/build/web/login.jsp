@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>login-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -72,7 +72,7 @@ body
          </div>
      </div>
        <br>
-       <p><font color="white">  <i class="fa fa-home" aria-hidden="true"  ></i></font></p>
+       <p><a href="index.jsp"><font color="white">  <i class="fa fa-home" aria-hidden="true"  ></i></font></a></p>
    </form>
 </div>
 

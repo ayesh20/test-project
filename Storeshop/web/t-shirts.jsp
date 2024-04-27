@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>clothe store</title>
+		<title>t-short-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -248,8 +248,8 @@
                    <div class="col6" id="company">
                        <img src="images/logo.png" alt="" class="logo">
                        <p>
-                         We are specialized in designings, make your business a brand.
-                         Try our premium services.
+                         We are provided better designings, make your look a brand.
+                         Try our premium cloths.
                        </p>
                        <div class="social6">
                          <a href="#"><i class="fab fa-facebook"></i></a>
@@ -265,27 +265,19 @@
                       <h3>Favourite</h3>
                       <div class="links">
                          <a href="mtrouser.jsp">Man Trousers</a>
-                         <a href="t-shirts.jsp">T-shirts</a>
                          <a href="mshirt.jsp">Shirts</a>
                          <a href="gallery.jsp">gallery</a>
                          <a href="shorts.jsp">Shorts</a>
                       </div>
                    </div>
  
-                   <div class="col6" id="useful-links">
-                      <h3>Links</h3>
-                      <div class="links">
-                         <a href="aboutus.jsp">About</a>
-                         <a href="#">Men</a>
-                         <a href="manother.jsp">others</a>
-                      </div>
-                   </div>
+                   
  
                    <div class="col6" id="contact">
-                       <h3>Contact</h3>
+                       <a href="contact us.jsp"><h3>Contact</h3></a>
                        <div class="contact-details">
                           <i class="fa fa-location"></i>
-                          <p>FF-42, Procube Avenue, <br> NY, USA</p>
+                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
                        </div>
                        <div class="contact-details">
                           <i class="fa fa-phone"></i>

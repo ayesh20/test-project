@@ -8,7 +8,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <title>checkout-FUNKYBOYZ</title>
+		<meta charset = "utf-8" />
     
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
