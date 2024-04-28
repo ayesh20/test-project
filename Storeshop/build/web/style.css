@@ -898,8 +898,8 @@ transform: scale(1.1) translateY(-20px);
 /*------- catagery header------*/
 
 .t-shirtsheader{
-    color: white;
-    height: 300px;
+    
+    height: 250px;
     background: url(images/t-shirt5.jpg);
     align-items: center;
     width: 1500px;
@@ -907,16 +907,25 @@ transform: scale(1.1) translateY(-20px);
   
   }
   
-.tspheader h2{
+.tspheader h1{
       text-align: center;
-      color: #c4bebe;
+      color: #000;
   }
   
 .tspheader h4{
       text-align: center;
-      color:white;
+      color:#535353;
+  }
+  
+  .tspheader a{
+      color:#E8E8E8;
   }
 
+  .tspheader a:hover{
+      color: #33ffff;
+  }
+  
+  
 /* Responsive Styles */
 @media (max-width: 768px) {
     .product-card {

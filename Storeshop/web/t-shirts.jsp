@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<title>t-short-FUNKYBOYZ</title>
+		<title>T-shirts-FUNKYBOYZ</title>
 		<meta charset = "utf-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
@@ -74,18 +74,16 @@
          </nav>
       </header>
       
+      <br><br>
       
     <div class="t-shirtsheader"><br><br><br><br><br><br>
     <div class="tspheader">
-    <h2>T-Shirts</h2><br>
+    <h1>T-Shirts</h1><br>
     <h4><a href="index.jsp">Home</a>/Shop</h4>
     </div>
     
 </div>
-      <br><br><br><br><br>
-      
-      
-      
+      <br><br><br><br>
       
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
