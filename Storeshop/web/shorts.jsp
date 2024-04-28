@@ -77,7 +77,7 @@
       
     <div class="shortsheader"><br><br><br><br><br><br>
     <div class="tspheader">
-    <h1>T-Shirts</h1><br>
+    <h1>Shorts</h1><br>
     <h4><a href="index.jsp">Home</a>/Shop</h4>
     </div>
     
