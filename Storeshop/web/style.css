@@ -895,6 +895,28 @@ transform: scale(1.1) translateY(-20px);
     display: block;
 }
 
+/*------- catagery header------*/
+
+.t-shirtsheader{
+    color: white;
+    height: 300px;
+    background: url(images/t-shirt5.jpg);
+    align-items: center;
+    width: 1500px;
+    margin-left: 10px;
+  
+  }
+  
+.tspheader h2{
+      text-align: center;
+      color: #c4bebe;
+  }
+  
+.tspheader h4{
+      text-align: center;
+      color:white;
+  }
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .product-card {

@@ -74,6 +74,19 @@
          </nav>
       </header>
       
+      
+    <div class="t-shirtsheader"><br><br><br><br><br><br>
+    <div class="tspheader">
+    <h2>T-Shirts</h2><br>
+    <h4><a href="index.jsp">Home</a>/Shop</h4>
+    </div>
+    
+</div>
+      <br><br><br><br><br>
+      
+      
+      
+      
     <!-- Product cards are the same, but I will include the 'data-id' to uniquely identify them -->
     <div class="products-grid">
         <!-- Product Card 1 -->
