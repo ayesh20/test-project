@@ -64,10 +64,10 @@
                 
             </div>
          </nav>
-      </header>
+     </header><br><br>
       
       <div class="contact"><br><br><br><br><br><br>
-          <h2>Contact US</h2><br>
+          <h1>Contact US</h1><br>
           <h4><a href="index.jsp">Home</a>/Contact us</h4>
           <br><br><br><br><br><br><br><br><br>
       </div>

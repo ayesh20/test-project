@@ -1043,110 +1043,19 @@ transform: scale(1.1) translateY(-20px);
 
 }
 
-.contact h2{
+.contact h1{
     text-align: center;
     color: #000;
 }
-
+.contact a{
+    color:#E8E8E8;
+}
+.contact a:hover{
+      color: #33ffff;
+  }
 .contact h4{
     text-align: center;
-    color:white;
-}
-
-.contact-us{
-   
-    margin-left: 100px;
-}
-
-.contitle{
-    font-weight: bold;
-    font-size: 20px;
-}
-
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 80%;
-    background: url("images/scsc.jpg") no-repeat;
-    background-size:contain;
-    margin-bottom: -50px;
-}
-
-.con-form{
-    
-    background-size: cover;
-    color: white;
-    min-height: 100vh;
-}
-.con-form .title1{
-  color: #373333;
-  text-align: center;
-  margin-left: 350px;
-  margin-top: 50px;
-}
-
-.con-form form {
-  width: 450px;
-  background :transparent;
-  box-shadow: 0 0 20px 0 rgb(213, 212, 210);
-  margin-left: 450px;
-  margin-top: 60px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  backdrop-filter: blur(10px) brightness(95%);
-  padding: 50px;
-}
-
-.con-form .inp_box{
-  border-radius: 10px;
-  height: 40px;
-  width: 350px;
-  padding: 10px;
-  border-style: none;
-}
-.btn2 {
-  width: 100%;
-  height: 40px;
-  border-radius: 40px;
-  background-color:rgb(94, 158, 61);
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 600;
-  color: rgb(255, 255, 255);
-  text-decoration: none !important;
-}
-
-.btn2:hover{
-  transition: all 0.3s;
-  background-color: rgb(22, 22, 94);
-
-}
-
-
-/*--contact us--*/
-
-.contact {
-  color: white;
-  height: 300px;
-  background: url(images/cobg.jpg);
-  align-items: center;
-  width: 1500px;
-  margin-left: 10px;
-
-}
-
-.contact h2{
-    text-align: center;
-    color: #000;
-}
-
-.contact h4{
-    text-align: center;
-    color:purple;
+    color:#908E8E;
 }
 
 .contact-us{
@@ -1187,7 +1096,7 @@ section{
   width: 450px;
   background :transparent;
   box-shadow: 0 0 20px 0 rgb(213, 212, 210);
-  margin-left: 520px;
+  margin-left: 560px;
   margin-top: 60px;
   margin-bottom: 10px;
   border-radius: 20px;

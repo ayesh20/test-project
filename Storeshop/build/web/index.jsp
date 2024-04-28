@@ -225,7 +225,11 @@
  
                    <div class="col6" id="contact">
                        <a href="contact us.jsp"><h3>Contact</h3></a>
+                       <div class="links">
+                               <a href="contact us.jsp">For Any Inquiry</a>
+                       </div><br>
                        <div class="contact-details">
+                           
                           <i class="fa fa-location"></i>
                           <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
                        </div>
