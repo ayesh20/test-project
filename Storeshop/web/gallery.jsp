@@ -84,7 +84,7 @@
    <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1118.jpg">
+           <img src="images/gallery1.jpg">
            
            
            </div>
@@ -93,7 +93,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1115.jpg">
+           <img src="images/gallery2.jpg">
            
            
            </div>
@@ -102,7 +102,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1111.jpg">
+           <img src="images/gallery3.jpg">
          
            </div>
        </div>
@@ -115,7 +115,7 @@
    <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1112.jpg">
+           <img src="images/gallery4.jpg">
            
            
            </div>
@@ -124,7 +124,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1113.jpg">
+           <img src="images/gallery5.jpg">
            
            
            </div>
@@ -133,7 +133,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1114.jpg">
+           <img src="images/gallery6.jpg">
            
         
            </div>
@@ -147,7 +147,7 @@
    <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1112.jpg">
+           <img src="images/gallery7.jpg">
            
            
            </div>
@@ -156,7 +156,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1113.jpg">
+           <img src="images/gallery8.jpg">
            
            
            </div>
@@ -165,7 +165,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1114.jpg">
+           <img src="images/gallery9.jpg">
            
            
            </div>
@@ -179,7 +179,7 @@
    <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1112.jpg">
+           <img src="images/gallery10.jpg">
            
            
            </div>
@@ -188,7 +188,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1113.jpg">
+           <img src="images/gallery11.jpg">
            
            </div>
        </div>
@@ -196,7 +196,7 @@
         <div class="column">
        <div class="effect">
        <div class="effect-img">
-           <img src="images/1114.jpg">
+           <img src="images/gallery12.jpg">
            
            
            </div>
@@ -214,19 +214,19 @@
                  <div class="slide">
          
                      
-                     <div class="item" style="background-image: url(./images/1112.jpg);">
+                     <div class="item" style="background-image: url(./images/gallery5.jpg);">
                          
                      </div>
-                     <div class="item" style="background-image: url(./images/1113.jpg);">
+                     <div class="item" style="background-image: url(./images/gallery6.jpg);">
                          
                      </div>
-                     <div class="item" style="background-image: url(./images/1114.jpg);">
+                     <div class="item" style="background-image: url(./images/gallery7.jpg);">
                          
                      </div>
-                     <div class="item" style="background-image: url(./images/1119.jpg);">
+                     <div class="item" style="background-image: url(./images/gallery8.jpg);">
                          
                      </div>
-                     <div class="item" style="background-image: url(./images/1117.jpg);">
+                     <div class="item" style="background-image: url(./images/gallery9.jpg);">
                          
                      </div>
                      

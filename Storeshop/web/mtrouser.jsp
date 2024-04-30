@@ -50,7 +50,14 @@
 
 <!--=============== HEADER ===============-->
 <jsp:include page="includes/navBar.jsp" />
-
+  <div class="mshirtheader"><br><br><br><br><br><br>
+    <div class="tspheader">
+    <h1>Shirts</h1><br>
+    <h4><a href="index.jsp">Home</a>/Shop</h4>
+    </div>
+    
+</div>
+      <br><br><br><br>
 <!-- Header and other page content here -->
 <div class="products-grid">
     <%
