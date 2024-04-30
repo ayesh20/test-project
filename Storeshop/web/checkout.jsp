@@ -19,45 +19,46 @@
 
 <div class="container_checkout">
 
-    <form action="">
+   <form action="CheckOutServlet" method="post">
 
         <div class="row_checkout">
 
 <!--Customer Details-->
 
             <div class="col_checkout">
-
-                <h3 class="title_checkout">billing address</h3>
-
-                <div class="inputBox_checkout">
-                    <span>full name :</span>
-                    <input type="text" placeholder="">
-                </div>
-                <div class="inputBox_checkout">
-                    <span>email :</span>
-                    <input type="email" placeholder="">
-                </div>
-                <div class="inputBox_checkout">
-                    <span>address :</span>
-                    <input type="text" placeholder="">
-                </div>
-                <div class="inputBox_checkout">
-                    <span>city :</span>
-                    <input type="text" placeholder="">
-                </div>
-
-                <div class="flex_checkout">
-                    <div class="inputBox_checkout">
-                        <span>District :</span>
-                        <input type="text" placeholder="">
-                    </div>
-                    <div class="inputBox_checkout">
-                        <span>zip code :</span>
-                        <input type="text" placeholder="">
-                    </div>
-                </div>
-
+    <h3 class="title_checkout">Billing Address</h3>
+    
+        <div class="inputBox_checkout">
+            <span>Full Name:</span>
+            <input type="text" name="fullName" placeholder="Enter your full name" required>
+        </div>
+        <div class="inputBox_checkout">
+            <span>Email:</span>
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="inputBox_checkout">
+            <span>Address:</span>
+            <input type="text" name="address" placeholder="Enter your address" required>
+        </div>
+        <div class="inputBox_checkout">
+            <span>City:</span>
+            <input type="text" name="city" placeholder="Enter your city" required>
+        </div>
+        <div class="flex_checkout">
+            <div class="inputBox_checkout">
+                <span>Contact No:</span>
+                <input type="text" name="contactNo" placeholder="Enter your contact number" required>
             </div>
+            <div class="inputBox_checkout">
+                <span>Zip Code:</span>
+                <input type="text" name="zipCode" placeholder="Enter your zip code" required>
+            </div>
+        </div>
+        <input type="submit" value="Proceed to Checkout" class="button1">
+
+</div>
+
+           
 <!--Payment col. section-->
             <div class="col_checkout">
 
@@ -92,11 +93,8 @@
                 </div>
 
             </div>
-    
+     </div>
         </div>
-
-        <input type="submit" value="proceed to checkout" class="submit-btnch">
-
     </form>
 
 </div>    

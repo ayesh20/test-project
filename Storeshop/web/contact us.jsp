@@ -25,49 +25,10 @@
      
 
       <!--=============== HEADER ===============-->
-     <header class="header" >
-         <nav class="nav container">
-            <div class="nav__data">
-               <a href="#" class="nav__logo"></a>
-               
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-menu-line nav__burger"></i>
-                  <i class="ri-close-line nav__close"></i>
-               </div>
-            </div>
-
-            <!--=============== NAV MENU ===============-->
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li><a href="index.jsp" class="nav__link">Home</a></li>
-                  
-                  
-
-                  <!--=============== DROPDOWN 2 ===============-->
-                 <li><a href="mshirt.jsp" class="nav__link">Shirts</a></li>
-                 <li><a href="t-shirts.jsp" class="nav__link">T-Shirts</a></li>
-                 <li><a href="mtrouser.jsp" class="nav__link">Pants</a></li>
-                 <li><a href="shorts.jsp" class="nav__link">Shorts</a></li>
-              <li><a href="gallery.jsp" class="nav__link">Gallery</a></li>
-                  <li><a href="aboutus.jsp" class="nav__link">About us</a></li>
-                  <div class="nav__link">
-                         <a href="login.jsp"  class="nav__link">My Account<i class="fa fa-user" aria-hidden="true"></i></a>
-</div></li>
-          <li class="dropdown__item">
-                     <div class="nav__link">
-                         <a href="cart.jsp"  class="nav__link"><span class="totalQuantity"  id="cart-count">0</span>
-  <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  <!-- Initial count is 0 -->My Cart
-</a>
-</div></li>
-
-                  </ul>
-                
-            </div>
-         </nav>
-     </header><br><br>
+     <jsp:include page="includes/navBar.jsp" />
       
       <div class="contact"><br><br><br><br><br><br>
-          <h1>Contact US</h1><br>
+          <h2>Contact US</h2><br>
           <h4><a href="index.jsp">Home</a>/Contact us</h4>
           <br><br><br><br><br><br><br><br><br>
       </div>
@@ -93,61 +54,7 @@
       
       
 <%--=====Footer======--%>
-     <br><br><br>
-      <footer>
-         <div class="container6">
-             <div class="row6">
-                   <div class="col6" id="company">
-                       <img src="images/logo.png" alt="" class="logo">
-                       <p>
-                         We are provided better designings, make your look a brand.
-                         Try our premium cloths.
-                       </p>
-                       <div class="social6">
-                         <a href="#"><i class="fab fa-facebook"></i></a>
-                         <a href="#"><i class="fab fa-instagram"></i></a>
-                         <a href="#"><i class="fab fa-youtube"></i></a>
-                         <a href="#"><i class="fab fa-twitter"></i></a>
-                         <a href="#"><i class="fab fa-linkedin"></i></a>
-                       </div>
-                   </div>
- 
- 
-                   <div class="col6" id="services">
-                      <h3>Favourite</h3>
-                      <div class="links">
-                         <a href="mtrouser.jsp">Man Trousers</a>
-                         <a href="mshirt.jsp">Shirts</a>
-                         <a href="gallery.jsp">gallery</a>
-                         <a href="shorts.jsp">Shorts</a>
-                      </div>
-                   </div>
- 
-                   
- 
-                   <div class="col6" id="contact">
-                       <a href="contact us.jsp"><h3>Contact</h3></a>
-                       <div class="contact-details">
-                          <i class="fa fa-location"></i>
-                          <p>FF-42, FUNKYBOYZ Shop <br> main street, colombo.</p>
-                       </div>
-                       <div class="contact-details">
-                          <i class="fa fa-phone"></i>
-                          <p>+1-8755856858</p>
-                       </div>
-                   </div>
-             </div>
- <br><br><br><br>
-             <div class="col6" >
-                <div class="col61">      
-                    <font size="4.3rem" > All Right Received.</font>
-                </div>
-                   </div>
- 
-         </div>
-      </footer> 
-
-
+     <jsp:include page="includes/footer.jsp" />
       
       <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
