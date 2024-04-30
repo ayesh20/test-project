@@ -73,7 +73,7 @@
       <br>
        <div class="banner">
     <div class="slider">
-        <img src="images/1111.jpg" id="slideimg">
+        <img src="images/carosal1.jpg" id="slideimg">
     </div>
     <div class="overlay">
       
@@ -94,9 +94,9 @@
     <script>
         var slideimg= document.getElementById("slideimg");
         var images = new Array(
-        "images/1111.jpg",
-            "images/1113.jpg",
-            "images/1114.jpg",
+        "images/carosal1.jpg",
+            "images/carosal2.jpg",
+            "images/carosal3.jpg",
         );
         var len = images.length;
         var i= 0;
