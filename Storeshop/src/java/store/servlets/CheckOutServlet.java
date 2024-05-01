@@ -1,70 +1,108 @@
 package store.servlets;
 
 import store.connection.DbConnection;
+import store.model.Cart;
+import store.model.User;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
-@WebServlet("/checkoutservlet")
+@WebServlet(name = "CheckOutServlet", urlPatterns = {"/CheckOutServlet"})
 public class CheckOutServlet extends HttpServlet {
+
+    private static final long serialVersionUID = 1L;
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Retrieve form data
-        String fullName = request.getParameter("fullName");
-        String email = request.getParameter("email");
-        String address = request.getParameter("address");
-        String city = request.getParameter("city");
-        String contactNo = request.getParameter("contactNo");
-        String zipCode = request.getParameter("zipCode");
-
-        // Establish database connection
-        Connection con = null;
-        PreparedStatement pstmt = null;
         try {
-            con = DbConnection.getConnection();
-
-            // Prepare SQL statement to insert order details into order table
-            String query = "INSERT INTO orders (full_name, email, address, city, contact_no, zip_code) VALUES (?, ?, ?, ?, ?, ?)";
-            pstmt = con.prepareStatement(query);
-            pstmt.setString(1, fullName);
-            pstmt.setString(2, email);
-            pstmt.setString(3, address);
-            pstmt.setString(4, city);
-            pstmt.setString(5, contactNo);
-            pstmt.setString(6, zipCode);
-
-            // Execute the SQL statement
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                // Order placed successfully, you can redirect to a confirmation page
-                response.sendRedirect("cart.jsp");
-            } else {
-                // Handle case where order insertion failed
-                response.sendRedirect("checkout.jsp?error=1");
+            HttpSession session = request.getSession();
+            User auth = (User) session.getAttribute("auth");
+            if (auth == null) {
+                response.sendRedirect("login.jsp");
+                return; // Exit the method to avoid further processing
             }
-        } catch (SQLException | ClassNotFoundException ex) {
-            // Handle database connection or SQL exception
-            ex.printStackTrace();
-            response.sendRedirect("checkout.jsp?error=1");
-        } finally {
-            // Close database resources
-            try {
-                if (pstmt != null) {
-                    pstmt.close();
-                }
-                if (con != null) {
-                    con.close();
-                }
-            } catch (SQLException ex) {
-                ex.printStackTrace();
+
+            ArrayList<Cart> cartList = (ArrayList<Cart>) session.getAttribute("cart-list");
+            if (cartList == null || cartList.isEmpty()) {
+                response.sendRedirect("cart.jsp"); // Redirect to cart page if cart is empty
+                return;
             }
+
+            String name = request.getParameter("name");
+            String address = request.getParameter("address");
+            String contactNumber = request.getParameter("contact_number");
+            String paymentMethod = request.getParameter("payment_method");
+            String totalPrice = request.getParameter("total_price");
+
+            Connection con = DbConnection.getConnection();
+            if (con == null) {
+                throw new SQLException("Failed to establish database connection");
+            }
+
+            StringBuilder itemsBuilder = new StringBuilder();
+            for (Cart cart : cartList) {
+                // Retrieve product name corresponding to the product ID
+                String productName = getProductName(con, cart.getId());
+                if (productName != null) {
+                    if (itemsBuilder.length() > 0) {
+                        itemsBuilder.append(", ");
+                    }
+                    itemsBuilder.append(productName);
+                }
+            }
+
+            String sql = "INSERT INTO orders (name, address, contact_number, total_price, payment_method, items) VALUES (?, ?, ?, ?, ?, ?)";
+            PreparedStatement pst = con.prepareStatement(sql);
+            pst.setString(1, name);
+            pst.setString(2, address);
+            pst.setString(3, contactNumber);
+            pst.setString(4, totalPrice);
+            pst.setString(5, paymentMethod);
+            pst.setString(6, itemsBuilder.toString());
+            pst.executeUpdate();
+
+            // Delete all products from the products table
+            deleteAllProducts(con);
+
+            session.removeAttribute("cart-list");
+            response.sendRedirect("orders.jsp");
+        } catch (ClassNotFoundException | SQLException e) {
+            e.printStackTrace();
+            // Redirect to an error page or display an error message to the user
+            response.sendRedirect("error.jsp");
         }
     }
+
+    private String getProductName(Connection con, int productId) throws SQLException {
+        String productName = null;
+        String sql = "SELECT name FROM products WHERE id = ?";
+        try (PreparedStatement pst = con.prepareStatement(sql)) {
+            pst.setInt(1, productId);
+            try (ResultSet rs = pst.executeQuery()) {
+                if (rs.next()) {
+                    productName = rs.getString("name");
+                }
+            }
+        }
+        return productName;
+    }
+
+    private void deleteAllProducts(Connection con) throws SQLException {
+        String sql = "DELETE FROM products";
+        try (PreparedStatement pst = con.prepareStatement(sql)) {
+            pst.executeUpdate();
+        }
+    }
+
 }

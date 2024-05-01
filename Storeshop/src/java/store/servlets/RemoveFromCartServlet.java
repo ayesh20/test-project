@@ -3,6 +3,7 @@ package store.servlets;
 import store.connection.DbConnection;
 import store.dao.CartDao;
 import java.io.IOException;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -17,30 +18,25 @@ public class RemoveFromCartServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int productId = 0; // Initialize productId
+        int productId = Integer.parseInt(request.getParameter("id"));
 
-        // Retrieve the productId from the request
-        String productIdStr = request.getParameter("productId");
-        if (productIdStr != null) {
-            try {
-                productId = Integer.parseInt(productIdStr);
-            } catch (NumberFormatException e) {
-                // Handle the exception, e.g., log the error or display an error message
-                e.printStackTrace();
-            }
-        }
-
-        // Call your DAO method to remove the product from the cart
-        CartDao cartDao = null;
         try {
-            cartDao = new CartDao(DbConnection.getConnection());
-            cartDao.removeFromCart(productId); // Call the method to remove the product
+            Connection con = DbConnection.getConnection();
+            CartDao cartDao = new CartDao(con);
+            boolean removed = cartDao.removeFromCart(productId);
+            con.close();
+
+            if (removed) {
+                // Item removed successfully
+                // You can add any additional logic here, such as displaying a success message
+            } else {
+                // Failed to remove item
+                // You can add any additional logic here, such as displaying an error message
+            }
         } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(RemoveFromCartServlet.class.getName()).log(Level.SEVERE, null, ex);
-            // Handle exceptions appropriately, e.g., display error message to user
         }
 
-        // Redirect back to the cart page
         response.sendRedirect("cart.jsp");
     }
 }

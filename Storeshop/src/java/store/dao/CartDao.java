@@ -60,10 +60,10 @@ public class CartDao {
     }
 
     // Method to remove an item from the cart
-    public boolean removeFromCart(int id) {
+public boolean removeFromCart(int id) {
     boolean removed = false;
     try {
-        String query = "DELETE FROM cart WHERE product_id=?";
+        String query = "DELETE FROM cart WHERE id=?"; // Updated query
         PreparedStatement pst = con.prepareStatement(query);
         pst.setInt(1, id);
         int rows = pst.executeUpdate();
