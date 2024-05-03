@@ -23,6 +23,7 @@
                       <div class="links">
                          <a href="mtrouser.jsp">Man Trousers</a>
                          <a href="mshirt.jsp">Shirts</a>
+                          <a href="t-shirts.jsp">T-Shirts</a>
                          <a href="gallery.jsp">gallery</a>
                          <a href="shorts.jsp">Shorts</a>
                       </div>
