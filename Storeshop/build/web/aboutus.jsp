@@ -40,7 +40,7 @@
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 20px;
-    color: ##4BD2DB;
+    color: #4BD2DB;
     text-transform: uppercase;
     letter-spacing: 2px;
 }

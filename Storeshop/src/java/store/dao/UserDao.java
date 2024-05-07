@@ -1,9 +1,14 @@
+// UserDao.java
 package store.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import store.connection.DbConnection;
 import store.model.User;
 
 public class UserDao {
@@ -23,7 +28,7 @@ public class UserDao {
             pst.setString(1, email);
             pst.setString(2, password);
             rs = pst.executeQuery();
-            if(rs.next()) {
+            if (rs.next()) {
                 user = new User();
                 user.setId(rs.getInt("id"));
                 user.setName(rs.getString("name"));
@@ -54,9 +59,31 @@ public class UserDao {
         }
         return success;
     }
+    
+    public List<User> getAllUsers() {
+        List<User> users = new ArrayList<>();
+        try {
+            String query = "SELECT * FROM users";
+            pst = con.prepareStatement(query);
+            rs = pst.executeQuery();
+            while (rs.next()) {
+                User user = new User();
+                user.setId(rs.getInt("id"));
+                user.setName(rs.getString("name"));
+                user.setEmail(rs.getString("email"));
+                  user.setPassword(rs.getString("password"));
+                users.add(user);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeResources();
+        }
+        return users;
+    }
 
     // Method to close PreparedStatement and ResultSet
-    private void closeResources() {
+    public void closeResources() {
         try {
             if (rs != null) rs.close();
             if (pst != null) pst.close();
@@ -64,6 +91,17 @@ public class UserDao {
             e.printStackTrace();
         }
     }
-
-   
+    
+    // UserDao.java
+    public boolean isEmailExists(String email) {
+        try (Connection con = DbConnection.getConnection()) {
+            String query = "SELECT COUNT(*) FROM users WHERE email = ?";
+            PreparedStatement stmt = con.prepareStatement(query);
+            stmt.setString(1, email);
+            return stmt.executeQuery().getInt(1) > 0;
+        } catch (SQLException | ClassNotFoundException ex) {
+            ex.printStackTrace(); // Add proper error logging
+            return false;
+        }
+    }
 }

@@ -79,7 +79,7 @@ public final class aboutus_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    font-size: 36px;\r\n");
       out.write("    font-weight: 700;\r\n");
       out.write("    margin-bottom: 20px;\r\n");
-      out.write("    color: ##4BD2DB;\r\n");
+      out.write("    color: #4BD2DB;\r\n");
       out.write("    text-transform: uppercase;\r\n");
       out.write("    letter-spacing: 2px;\r\n");
       out.write("}\r\n");
