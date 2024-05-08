@@ -1,49 +1,148 @@
-<%-- 
-    Document   : category
-    Created on : Apr 20, 2024, 7:51:16 AM
-    Author     : shali
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.List"%>
+<%@page import="store.dao.ProductsDao"%>
+<%@page import="store.model.Product"%>
+<%@page import="store.connection.DbConnection"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add New Item</title>
-    <link rel="stylesheet" href="admin.css">
+    <title>Category</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/fav.png">
+    <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css " />
+    <link rel="stylesheet" href="./Admin/admin.css">
+
 </head>
 <body>
     <div class="dashboard">
         <div class="sidebar">
             <div class="menu">
-                <div class="menu-item">DASHBOARD</div>
-                <div class="menu-item ">Add item</div>
-                <div class="menu-item">users</div>
-                <div class="menu-item">Categories</div>
-                <div class="menu-item">Orders</div>
+                <div class="menu-item"><a href="Admin/dashboad.jsp">DASHBOARD</a></div>
+                <div class="menu-item "><a href="Admin/aitem.jsp">Add item</a></div>
+                <div class="menu-item"><a href="Admin/users.jsp">Users</a></div>
+                <div class="menu-item"><a href="Admin/categories.jsp">Categories</a></div>
+                <div class="menu-item"><a href="Admin/orders.jsp">Orders</a></div>
             </div>
         </div>
-        <div class="content">
-            <div class="header">
-                <input type="search" placeholder="Search" class="search-input">
-                <span class="admin">Administrator</span>
-            </div>
-            <table class="items-table">
-                <thead>
-                    <tr>
-                        <th>Image</th>
-                        <th>Name</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Category</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                
-            </table>
+
+        <%
+            // Create a new instance of ProductsDao
+            ProductsDao pd = new ProductsDao(DbConnection.getConnection());
+
+            // Retrieve the products from the database
+            List<Product> shirts = pd.getProductsByCategory("Shirts");
+            List<Product> tshirts = pd.getProductsByCategory("Tshirts");
+            List<Product> trousers = pd.getProductsByCategory("Trousers");
+            List<Product> shorts = pd.getProductsByCategory("Shorts");
+        %>
+        <div class="container">
+            <!-- Section for Shirts -->
+            <h1>Shirts</h1>
+            <section id="shirts" class="category-section">
+               
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (Product product : shirts) {%>
+                        <tr>
+                            <td><%= product.getName()%></td>
+                            <td>Rs.<%= product.getPrice()%></td>
+                            <td><img src="<%= product.getImage()%>" alt="<%= product.getName()%>"></td>
+                        </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </section>
+                    <hr>
+                    <hr>
+            <!-- Section for T-Shirts -->
+            <h1>T-Shirts</h1>
+            <section id="tshirts" class="category-section">
+               
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (Product product : tshirts) {%>
+                        <tr>
+                            <td><%= product.getName()%></td>
+                            <td>Rs.<%= product.getPrice()%></td>
+                            <td><img src="<%= product.getImage()%>" alt="<%= product.getName()%>"></td>
+                        </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </section>
+<hr>
+                    <hr>
+            <!-- Section for Trousers -->
+            <h1>Trousers</h1>
+            <section id="trousers" class="category-section">
+               
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (Product product : trousers) {%>
+                        <tr>
+                            <td><%= product.getName()%></td>
+                            <td>Rs.<%= product.getPrice()%></td>
+                            <td><img src="<%= product.getImage()%>" alt="<%= product.getName()%>"></td>
+                        </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </section>
+<hr>
+                    <hr>
+            <!-- Section for Shorts -->
+            <h1>Shorts</h1>
+            <section id="shorts" class="category-section">
+               
+                <table class="products-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Image</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% for (Product product : shorts) {%>
+                        <tr>
+                            <td><%= product.getName()%></td>
+                            <td>Rs.<%= product.getPrice()%></td>
+                            <td><img src="<%= product.getImage()%>" alt="<%= product.getName()%>"></td>
+                        </tr>
+                        <% }%>
+                    </tbody>
+                </table>
+            </section>
         </div>
     </div>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    <script src="js/main1.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
-  

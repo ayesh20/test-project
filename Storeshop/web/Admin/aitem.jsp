@@ -1,48 +1,69 @@
-<%-- 
-    Document   : aitem
-    Created on : Apr 22, 2024, 6:59:53 AM
-    Author     : shali
---%>
-
+<%@page import="java.util.List"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add New Item</title>
+    <title>User List</title>
     <link rel="stylesheet" href="admin.css">
+    <style>
+        
+    </style>
 </head>
 <body>
     <div class="dashboard">
         <div class="sidebar">
-            <div class="menu">
-                <div class="menu-item">DASHBOARD</div>
-                <div class="menu-item ">Add item</div>
-                <div class="menu-item">users</div>
-                <div class="menu-item">Categories</div>
-                <div class="menu-item">Orders</div>
-            </div>
+           <div class="menu">
+        <div class="menu-item"><a href="dashboad.jsp">DASHBOARD</a></div>
+        <div class="menu-item "><a href="aitem.jsp">Add item</a></div>
+        <div class="menu-item"><a href="users.jsp">Users</a></div>
+        <div class="menu-item"><a href="category.jsp">Categories</a></div>
+        <div class="menu-item"><a href="orders.jsp">Orders</a></div>
+    </div>
         </div>
         <div class="content">
             <div class="header">
                 <input type="search" placeholder="Search" class="search-input">
                 <span class="admin">Administrator</span>
             </div>
-            <div class="add-item-panel">
-                <h1>Add a New Item</h1>
-                <div class="form-group">
-                    <input type="text" id="name" placeholder="Name">
-                    <input type="text" id="price" placeholder="Price">
-                    <input type="number" id="quantity" placeholder="Quantity">
-                    <input type="text" id="category" placeholder="Category">
-                    <div class="file-upload">
-                        <input type="file" id="image">
-                        <span class="file-label">Choose file</span>
-                    </div>
-                    <button type="submit">Add item</button>
-                </div>
-            </div>
+            <h3>Users</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30%;" >Username</th> 
+                        <th style="width: 30%;" >Email</th> 
+                        <th style="width: 20%;">Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <%@page import="store.dao.UserDao"%>
+                    <%@page import="store.connection.DbConnection"%>
+                    <%@page import="store.model.User"%>
+                    <% 
+                        UserDao userDao = null;
+                        try {
+                            userDao = new UserDao(DbConnection.getConnection());
+                            List<User> userList = userDao.getAllUsers();
+                            for (User user : userList) {
+                    %>
+                    <tr>
+                        <td class="td1"><%= user.getName() %></td>
+                        <td class="td1"><%= user.getEmail() %></td>
+                        <td class="td1"><%= user.getPassword() %></td>
+                    </tr>
+                    <% 
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        } finally {
+                            if (userDao != null) {
+                                userDao.closeResources(); // close resources
+                            }
+                        }
+                    %>
+                </tbody>
+            </table>
         </div>
     </div>
 </body>
